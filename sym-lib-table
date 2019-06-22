@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name c64-cartlib-sym)(type Legacy)(uri ${KIPRJMOD}/library/c64-cartlib-sym.lib)(options "")(descr ""))
+  (lib (name Rotary_Switch)(type Legacy)(uri ${KIPRJMOD}/library/Rotary_Switch.lib)(options "")(descr ""))
+  (lib (name sw_rotary4x3)(type Legacy)(uri ${KIPRJMOD}/library/sw_rotary4x3.lib)(options "")(descr ""))
+)

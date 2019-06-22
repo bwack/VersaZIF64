@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name C64-cartlib)(type KiCad)(uri ${KIPRJMOD}/library/C64-cartlib.pretty)(options "")(descr ""))
+  (lib (name VersaZIF64)(type KiCad)(uri ${KIPRJMOD}/VersaZIF64.pretty)(options "")(descr ""))
+)

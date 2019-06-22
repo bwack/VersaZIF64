@@ -1,0 +1,10 @@
+Reference, Quantity, Value,Footprint / Description,Digi-Key Part No.
+C1 ,1,100nF,Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm,478-3192-ND
+D1 D2 ,2,1n4148,Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,1N4148FSCT-ND
+RN1 ,1,10k x 4,Resistor_THT:R_Array_SIP5,4605X-101-103LF-ND
+SW1 ,1,SW_DIP_x05,Button_Switch_THT:SW_DIP_SPSTx05_Slide_9.78x14.88mm _W7.62mm_P2.54mm, CT2065ST-ND 
+SW2 ,1,SW_Push,Button_Switch_THT:SW_PUSH_6mm_H5mm,SW417-ND
+SW3 ,1,SW_Rotary2x3,VersaZIF64:Nidec_SS-10-23NP-L-E_RotarySwitch_2x3,563-1084-ND
+U1 ,1,"ZIF PDIP 28 0.6""","ZIF PDIP 28 0.6""",A302-ND
+SPACER,2,,HEX STANDOFF M4 NYLON 18MM, 36-25524-ND 
+NUT,2,,PLASTIC HEXAGON NUT M4,732-12638-ND

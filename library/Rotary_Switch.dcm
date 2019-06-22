@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SW_Rotary2x3
+D 2 rotary switches with 3 positions
+K rotary switch
+F http://www.farnell.com/datasheets/2604296.pdf
+$ENDCMP
+#
+#End Doc Library
