@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "VersaZIF64"
-Date "2019-06-01"
+Date "2019-06-22"
 Rev "1.0"
 Comp "BWACK"
 Comment1 "Based on the Versa64cart"
@@ -214,7 +214,7 @@ L Memory_EPROM:27512 U1
 U 1 1 5CF739E7
 P 6950 3250
 F 0 "U1" H 6700 4300 50  0000 C CNN
-F 1 "27512" H 7000 3300 50  0000 C CNN
+F 1 "27512 / ZIF PDIP 28 0.6\"" V 7000 3300 50  0000 C CNN
 F 2 "Socket:DIP_Socket-28_W11.9_W12.7_W15.24_W17.78_W18.5_3M_228-1277-00-0602J" H 6950 3250 50  0001 C CNN
 F 3 "http://pdf.datasheetcatalog.com/datasheets/120/227190_DS.pdf" H 6950 3250 50  0001 C CNN
 	1    6950 3250
