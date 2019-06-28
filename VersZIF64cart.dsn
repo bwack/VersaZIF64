@@ -1,0 +1,6605 @@
+
+(PCB VersZIF64cart
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.2)-1")
+    (generated_by_freeroute)
+  )
+  (resolution um 10)
+  (structure
+    (boundary
+      (rect pcb 23014.0 -104113.0 81126.0 -25824.5)
+    )
+    (boundary
+      (polygon signal 0
+        24130.0 -104013.0
+        80010.0 -104013.0
+        81026.0 -101219.0
+        81026.0 -25924.5
+        23114.0 -25924.5
+        23114.0 -101219.0
+      )
+    )
+    (snap_angle 
+      fortyfive_degree
+    )
+    (via "Via[0-1]_800:400_um")
+    (control
+      (via_at_smd off)
+    )
+    (rule
+      (width 250.0)
+      (clear 200.2)
+      (clear 125.0 (type smd_to_turn_gap))
+      (clear 50.0 (type smd_smd))
+    )
+    (layer F.Cu
+      (type signal)
+    )
+    (layer B.Cu
+      (type signal)
+    )
+    (autoroute_settings
+      (fanout off)
+      (autoroute on)
+      (postroute on)
+      (vias on)
+      (via_costs 50)
+      (plane_via_costs 5)
+      (start_ripup_costs 100)
+      (start_pass_no 79)
+      (layer_rule F.Cu
+        (active on)
+        (preferred_direction vertical)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 2.3)
+      )
+      (layer_rule B.Cu
+        (active on)
+        (preferred_direction horizontal)
+        (preferred_direction_trace_costs 1.0)
+        (against_preferred_direction_trace_costs 1.7)
+      )
+    )
+    (via_keepout
+      (polygon B.Cu 0
+        23114.0 -93853.0
+        81026.0 -93853.0
+        81026.0 -91948.0
+        23114.0 -91948.0
+      )
+      (clearance_class default)
+    )
+    (via_keepout
+      (polygon F.Cu 0
+        23114.0 -93853.0
+        81026.0 -93853.0
+        81026.0 -91948.0
+        23114.0 -91948.0
+      )
+      (clearance_class default)
+    )
+    (keepout
+      (polygon F.Cu 0
+        79629.0 -86868.0
+        80899.0 -86868.0
+        80899.0 -83693.0
+        79629.0 -83693.0
+      )
+      (clearance_class default)
+    )
+    (keepout
+      (polygon F.Cu 0
+        23114.0 -86868.0
+        24384.0 -86868.0
+        24384.0 -83693.0
+        23114.0 -83693.0
+      )
+      (clearance_class default)
+    )
+  )
+  (placement
+    (component "VersaZIF64:Nidec_SS-10-23NP-L-E_RotarySwitch_2x3"
+      (place 
+        SW3 51435.0 -39767.5 front 90
+        (pin 6 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 5 (clearance_class "kicad_default"))
+        (pin 8 (clearance_class "kicad_default"))
+        (pin 7 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 4 (clearance_class "kicad_default"))
+        (pin 3 (clearance_class "kicad_default"))
+      )
+    )
+    (component "C64-cartlib:C64_EXPANSION_PORT"
+      (place 
+        J1 52070.0 -99949.0 front 0
+        (pin Z (clearance_class "kicad_default"))
+        (pin Y (clearance_class "kicad_default"))
+        (pin X (clearance_class "kicad_default"))
+        (pin W (clearance_class "kicad_default"))
+        (pin V (clearance_class "kicad_default"))
+        (pin U (clearance_class "kicad_default"))
+        (pin T (clearance_class "kicad_default"))
+        (pin S (clearance_class "kicad_default"))
+        (pin R (clearance_class "kicad_default"))
+        (pin P (clearance_class "kicad_default"))
+        (pin N (clearance_class "kicad_default"))
+        (pin M (clearance_class "kicad_default"))
+        (pin L (clearance_class "kicad_default"))
+        (pin K (clearance_class "kicad_default"))
+        (pin J (clearance_class "kicad_default"))
+        (pin H (clearance_class "kicad_default"))
+        (pin F (clearance_class "kicad_default"))
+        (pin E (clearance_class "kicad_default"))
+        (pin D (clearance_class "kicad_default"))
+        (pin C (clearance_class "kicad_default"))
+        (pin B (clearance_class "kicad_default"))
+        (pin A (clearance_class "kicad_default"))
+        (pin 22 (clearance_class "kicad_default"))
+        (pin 21 (clearance_class "kicad_default"))
+        (pin 20 (clearance_class "kicad_default"))
+        (pin 19 (clearance_class "kicad_default"))
+        (pin 18 (clearance_class "kicad_default"))
+        (pin 17 (clearance_class "kicad_default"))
+        (pin 16 (clearance_class "kicad_default"))
+        (pin 15 (clearance_class "kicad_default"))
+        (pin 14 (clearance_class "kicad_default"))
+        (pin 13 (clearance_class "kicad_default"))
+        (pin 12 (clearance_class "kicad_default"))
+        (pin 11 (clearance_class "kicad_default"))
+        (pin 10 (clearance_class "kicad_default"))
+        (pin 9 (clearance_class "kicad_default"))
+        (pin 8 (clearance_class "kicad_default"))
+        (pin 7 (clearance_class "kicad_default"))
+        (pin 6 (clearance_class "kicad_default"))
+        (pin 5 (clearance_class "kicad_default"))
+        (pin 4 (clearance_class "kicad_default"))
+        (pin 3 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+      )
+    )
+    (component "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+      (place 
+        C1 34290.0 -75184.0 front 180
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+      (place 
+        D1 36576.0 -88138.0 front 90
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+      )
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::1"
+      (place 
+        D2 40894.0 -88138.0 front 90
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+      )
+    )
+    (component "Resistor_THT:R_Array_SIP5"
+      (place 
+        RN1 37592.0 -75184.0 front 0
+        (pin 5 (clearance_class "kicad_default"))
+        (pin 4 (clearance_class "kicad_default"))
+        (pin 3 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+      )
+    )
+    (component "Socket:DIP_Socket-28_W11.9_W12.7_W15.24_W17.78_W18.5_3M_228-1277-00-0602J"
+      (place 
+        U1 37338.0 -61294.0 front 90
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 28 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 27 (clearance_class "kicad_default"))
+        (pin 3 (clearance_class "kicad_default"))
+        (pin 26 (clearance_class "kicad_default"))
+        (pin 4 (clearance_class "kicad_default"))
+        (pin 25 (clearance_class "kicad_default"))
+        (pin 5 (clearance_class "kicad_default"))
+        (pin 24 (clearance_class "kicad_default"))
+        (pin 6 (clearance_class "kicad_default"))
+        (pin 23 (clearance_class "kicad_default"))
+        (pin 7 (clearance_class "kicad_default"))
+        (pin 22 (clearance_class "kicad_default"))
+        (pin 8 (clearance_class "kicad_default"))
+        (pin 21 (clearance_class "kicad_default"))
+        (pin 9 (clearance_class "kicad_default"))
+        (pin 20 (clearance_class "kicad_default"))
+        (pin 10 (clearance_class "kicad_default"))
+        (pin 19 (clearance_class "kicad_default"))
+        (pin 11 (clearance_class "kicad_default"))
+        (pin 18 (clearance_class "kicad_default"))
+        (pin 12 (clearance_class "kicad_default"))
+        (pin 17 (clearance_class "kicad_default"))
+        (pin 13 (clearance_class "kicad_default"))
+        (pin 16 (clearance_class "kicad_default"))
+        (pin 14 (clearance_class "kicad_default"))
+        (pin 15 (clearance_class "kicad_default"))
+      )
+    )
+    (component "Button_Switch_THT:SW_DIP_SPSTx05_Slide_9.78x14.88mm_W7.62mm_P2.54mm"
+      (place 
+        SW1 34163.0 -39450.0 front 90
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 6 (clearance_class "kicad_default"))
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 7 (clearance_class "kicad_default"))
+        (pin 3 (clearance_class "kicad_default"))
+        (pin 8 (clearance_class "kicad_default"))
+        (pin 4 (clearance_class "kicad_default"))
+        (pin 9 (clearance_class "kicad_default"))
+        (pin 5 (clearance_class "kicad_default"))
+        (pin 10 (clearance_class "kicad_default"))
+      )
+    )
+    (component "MountingHole:MountingHole_4.3mm_M4_ISO7380"
+      (place 
+        H1 27178.0 -30052.0 front 0
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+      )
+    )
+    (component "MountingHole:MountingHole_4.3mm_M4_ISO7380::1"
+      (place 
+        H2 76898.5 -30052.0 front 0
+        (keepout "keepout_1" (clearance_class default))
+        (keepout "keepout_2" (clearance_class default))
+      )
+    )
+    (component "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+      (place 
+        SW2 64389.0 -33354.0 front 0
+        (pin 2 (clearance_class "kicad_default"))
+        (pin 1 (clearance_class "kicad_default"))
+        (pin 2@1 (clearance_class "kicad_default"))
+        (pin 1@1 (clearance_class "kicad_default"))
+      )
+    )
+  )
+  (library
+    (image "VersaZIF64:Nidec_SS-10-23NP-L-E_RotarySwitch_2x3"
+      (side front)
+      (pin "Oval[A]Pad_2100x1900_um" 6 7620.0 -7620.0)
+      (pin "Oval[A]Pad_2100x1900_um" 1 0.0 -7620.0)
+      (pin "Oval[A]Pad_2100x1900_um" 5 7620.0 -5080.0)
+      (pin "Rect[A]Pad_2100x1900_um" 8 0.0 -5080.0)
+      (pin "Rect[A]Pad_2100x1900_um" 7 7620.0 -2540.0)
+      (pin "Oval[A]Pad_2100x1900_um" 2 0.0 -2540.0)
+      (pin "Oval[A]Pad_2100x1900_um" 4 7620.0 0.0)
+      (pin "Oval[A]Pad_2100x1900_um" 3 0.0 0.0)
+      (outline
+        (polygon signal 0
+          4597.9 -8899.2
+          4647.7 -8899.2
+          7426.0 -6120.9
+          7426.0 -6071.1
+          7390.9 -6036.0
+          7341.1 -6036.0
+          4562.8 -8814.3
+          4562.8 -8864.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          7455.4 -8911.9
+          7505.2 -8911.9
+          7540.3 -8876.8
+          7540.3 -8712.7
+          7505.2 -8677.6
+          7455.4 -8677.6
+          7420.3 -8712.7
+          7420.3 -8876.8
+        )
+      )
+      (outline
+        (polygon signal 0
+          114.8 -8911.9
+          164.6 -8911.9
+          199.7 -8876.8
+          199.7 -8712.7
+          164.6 -8677.6
+          114.8 -8677.6
+          79.7 -8712.7
+          79.7 -8876.8
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1310.4 1335.0
+          8930.4 1335.0
+          8945.0 1349.6
+          8945.0 1370.4
+          8930.4 1385.0
+          -1310.4 1385.0
+          -1325.0 1370.4
+          -1325.0 1349.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          8909.6 -9005.0
+          8930.4 -9005.0
+          8945.0 -8990.4
+          8945.0 1370.4
+          8930.4 1385.0
+          8909.6 1385.0
+          8895.0 1370.4
+          8895.0 -8990.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1310.4 -9005.0
+          8930.4 -9005.0
+          8945.0 -8990.4
+          8945.0 -8969.6
+          8930.4 -8955.0
+          -1310.4 -8955.0
+          -1325.0 -8969.6
+          -1325.0 -8990.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1310.4 -9005.0
+          -1289.6 -9005.0
+          -1275.0 -8990.4
+          -1275.0 1370.4
+          -1289.6 1385.0
+          -1310.4 1385.0
+          -1325.0 1370.4
+          -1325.0 -8990.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          4562.4 -5056.5
+          4612.2 -5056.5
+          5927.3 -3741.4
+          5927.3 -3691.6
+          5892.2 -3656.5
+          5842.4 -3656.5
+          4527.3 -4971.6
+          4527.3 -5021.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          5842.4 -3776.5
+          5892.2 -3776.5
+          5927.3 -3741.4
+          5927.3 -3691.6
+          4612.2 -2376.5
+          4562.4 -2376.5
+          4527.3 -2411.6
+          4527.3 -2461.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          2002.4 -3776.5
+          5892.2 -3776.5
+          5927.3 -3741.4
+          5927.3 -3691.6
+          5892.2 -3656.5
+          2002.4 -3656.5
+          1967.3 -3691.6
+          1967.3 -3741.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          7455.1 -3990.0
+          7504.9 -3990.0
+          7540.0 -3954.9
+          7540.0 -3665.1
+          7504.9 -3630.0
+          7455.1 -3630.0
+          7420.0 -3665.1
+          7420.0 -3954.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          7455.1 -1450.0
+          7504.9 -1450.0
+          7540.0 -1414.9
+          7540.0 -1125.1
+          7504.9 -1090.0
+          7455.1 -1090.0
+          7420.0 -1125.1
+          7420.0 -1414.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          115.1 -3990.0
+          164.9 -3990.0
+          200.0 -3954.9
+          200.0 -3665.1
+          164.9 -3630.0
+          115.1 -3630.0
+          80.0 -3665.1
+          80.0 -3954.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          115.1 -1450.0
+          164.9 -1450.0
+          200.0 -1414.9
+          200.0 -1125.1
+          164.9 -1090.0
+          115.1 -1090.0
+          80.0 -1125.1
+          80.0 -1414.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          7455.4 -6562.4
+          7505.2 -6562.4
+          7540.3 -6527.3
+          7540.3 -6205.4
+          7504.9 -6170.0
+          7455.1 -6170.0
+          7420.0 -6205.1
+          7420.0 -6527.0
+        )
+      )
+      (outline
+        (polygon signal 0
+          115.1 -8910.0
+          7504.9 -8910.0
+          7540.0 -8874.9
+          7540.0 -8825.1
+          7504.9 -8790.0
+          115.1 -8790.0
+          80.0 -8825.1
+          80.0 -8874.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          114.8 -6549.7
+          164.6 -6549.7
+          200.0 -6514.3
+          200.0 -6205.1
+          164.9 -6170.0
+          115.1 -6170.0
+          79.7 -6205.4
+          79.7 -6514.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          7455.1 1090.0
+          7504.9 1090.0
+          7540.0 1125.1
+          7540.0 1254.9
+          7504.9 1290.0
+          7455.1 1290.0
+          7420.0 1254.9
+          7420.0 1125.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          115.1 1170.0
+          7504.9 1170.0
+          7540.0 1205.1
+          7540.0 1254.9
+          7504.9 1290.0
+          115.1 1290.0
+          80.0 1254.9
+          80.0 1205.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          115.1 1090.0
+          164.9 1090.0
+          200.0 1125.1
+          200.0 1254.9
+          164.9 1290.0
+          115.1 1290.0
+          80.0 1254.9
+          80.0 1125.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          4741.8 -8762.2
+          4783.2 -8762.2
+          7403.3 -6142.1
+          7403.3 -6100.7
+          7374.0 -6071.4
+          7332.6 -6071.4
+          4712.5 -8691.5
+          4712.5 -8732.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          239.3 -8780.0
+          280.7 -8780.0
+          310.0 -8750.7
+          310.0 1125.6
+          280.7 1154.9
+          239.3 1154.9
+          210.0 1125.6
+          210.0 -8750.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          239.3 -8780.0
+          7380.7 -8780.0
+          7410.0 -8750.7
+          7410.0 -8709.3
+          7380.7 -8680.0
+          239.3 -8680.0
+          210.0 -8709.3
+          210.0 -8750.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          7339.3 -8780.0
+          7380.7 -8780.0
+          7410.0 -8750.7
+          7410.0 1130.7
+          7380.7 1160.0
+          7339.3 1160.0
+          7310.0 1130.7
+          7310.0 -8750.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          246.0 1060.0
+          7380.7 1060.0
+          7410.0 1089.3
+          7410.0 1130.7
+          7380.7 1160.0
+          246.0 1160.0
+          216.7 1130.7
+          216.7 1089.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          3956.410918114144 -6361.4
+          3963.7690515806985 -6361.4
+          4606.9797150955765 -6238.757357622957
+          5201.515530910786 -5958.9998914143525
+          5704.0327868852455 -5543.267213114754
+          5709.257152924595 -5538.042847075405
+          6093.59267583426 -5009.122990388218
+          6335.525810428806 -4397.939665186838
+          6417.3 -3750.458955223881
+          6417.3 -3742.5404228855723
+          6335.526703761598 -3094.9650781717583
+          6093.588401257101 -2483.8711269686146
+          5709.257152924595 -1954.9571529245945
+          5704.0327868852455 -1949.7327868852458
+          5201.515530910786 -1534.000108585647
+          4606.99025179944 -1254.2476003989095
+          3963.7642560266004 -1131.5
+          3956.410918114144 -1131.5
+          3306.149301473306 -1172.4205858067235
+          2681.4780465141525 -1375.3901251454097
+          2127.719100555836 -1726.8808994441638
+          2123.27649122807 -1731.32350877193
+          1677.182628915185 -2206.358129281759
+          1360.986337017525 -2781.5673655614546
+          1197.5 -3418.2011904761907
+          1197.5 -4074.7
+          1360.9845902688335 -4711.429456836509
+          1677.182628915185 -5286.641870718241
+          2123.27649122807 -5761.6764912280705
+          2127.719100555836 -5766.119100555837
+          2681.491695965781 -6117.618538653806
+          3306.1421355684856 -6320.478963247048
+        )
+      )
+    )
+    (image VersaZIF64:logodrawing
+      (side front)
+    )
+    (image "C64-cartlib:C64_EXPANSION_PORT"
+      (side front)
+      (pin "Rect[B]Pad_1500x8000_um" Z 26670.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" Y 24130.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" X 21590.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" W 19050.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" V 16510.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" U 13970.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" T 11430.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" S 8890.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" R 6350.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" P 3810.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" N 1270.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" M -1270.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" L -3810.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" K -6350.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" J -8890.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" H -11430.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" F -13970.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" E -16510.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" D -19050.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" C -21590.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" B -24130.0 0.0)
+      (pin "Rect[B]Pad_1500x8000_um" A -26670.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 22 26670.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 21 24130.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 20 21590.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 19 19050.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 18 16510.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 17 13970.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 16 11430.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 15 8890.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 14 6350.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 13 3810.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 12 1270.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 11 -1270.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 10 -3810.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 9 -6350.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 8 -8890.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 7 -11430.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 6 -13970.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 5 -16510.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 4 -19050.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 3 -21590.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 2 -24130.0 0.0)
+      (pin "Rect[T]Pad_1500x8000_um" 1 -26670.0 0.0)
+      (outline
+        (polygon signal 0
+          -27964.9 -4124.0
+          27964.9 -4124.0
+          28000.0 -4088.9
+          28000.0 -4039.1
+          27964.9 -4004.0
+          -27964.9 -4004.0
+          -28000.0 -4039.1
+          -28000.0 -4088.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -27964.9 -4124.0
+          -27915.1 -4124.0
+          -27880.0 -4088.9
+          -27880.0 -2261.1
+          -28931.1 -1210.0
+          -28980.9 -1210.0
+          -29016.0 -1245.1
+          -29016.0 -3072.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          27915.1 -4124.0
+          27964.9 -4124.0
+          29016.0 -3072.9
+          29016.0 -1245.1
+          28980.9 -1210.0
+          28931.1 -1210.0
+          27880.0 -2261.1
+          27880.0 -4088.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -28980.9 -1330.0
+          -28931.1 -1330.0
+          -28896.0 -1294.9
+          -28896.0 4469.9
+          -28931.1 4505.0
+          -28980.9 4505.0
+          -29016.0 4469.9
+          -29016.0 -1294.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          28931.1 -1330.0
+          28980.9 -1330.0
+          29016.0 -1294.9
+          29016.0 4469.9
+          28980.9 4505.0
+          28931.1 4505.0
+          28896.0 4469.9
+          28896.0 -1294.9
+        )
+      )
+    )
+    (image "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm"
+      (side front)
+      (pin "Round[A]Pad_1600_um" 1 0.0 0.0)
+      (pin "Round[A]Pad_1600_um" 2 2500.0 0.0)
+      (outline
+        (polygon signal 0
+          -670.7 -1350.0
+          -629.3 -1350.0
+          -600.0 -1320.7
+          -600.0 1320.7
+          -629.3 1350.0
+          -670.7 1350.0
+          -700.0 1320.7
+          -700.0 -1320.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -670.7 -1350.0
+          3170.7 -1350.0
+          3200.0 -1320.7
+          3200.0 -1279.3
+          3170.7 -1250.0
+          -670.7 -1250.0
+          -700.0 -1279.3
+          -700.0 -1320.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          3129.3 -1350.0
+          3170.7 -1350.0
+          3200.0 -1320.7
+          3200.0 1320.7
+          3170.7 1350.0
+          3129.3 1350.0
+          3100.0 1320.7
+          3100.0 -1320.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -670.7 1250.0
+          3170.7 1250.0
+          3200.0 1279.3
+          3200.0 1320.7
+          3170.7 1350.0
+          -670.7 1350.0
+          -700.0 1320.7
+          -700.0 1279.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -794.9 1360.0
+          3294.9 1360.0
+          3330.0 1395.1
+          3330.0 1444.9
+          3294.9 1480.0
+          -794.9 1480.0
+          -830.0 1444.9
+          -830.0 1395.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -794.9 -1480.0
+          3294.9 -1480.0
+          3330.0 -1444.9
+          3330.0 -1395.1
+          3294.9 -1360.0
+          -794.9 -1360.0
+          -830.0 -1395.1
+          -830.0 -1444.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -794.9 735.0
+          -745.1 735.0
+          -710.0 770.1
+          -710.0 1444.9
+          -745.1 1480.0
+          -794.9 1480.0
+          -830.0 1444.9
+          -830.0 770.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -794.9 -1480.0
+          -745.1 -1480.0
+          -710.0 -1444.9
+          -710.0 -770.1
+          -745.1 -735.0
+          -794.9 -735.0
+          -830.0 -770.1
+          -830.0 -1444.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          3245.1 735.0
+          3294.9 735.0
+          3330.0 770.1
+          3330.0 1444.9
+          3294.9 1480.0
+          3245.1 1480.0
+          3210.0 1444.9
+          3210.0 770.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          3245.1 -1480.0
+          3294.9 -1480.0
+          3330.0 -1444.9
+          3330.0 -770.1
+          3294.9 -735.0
+          3245.1 -735.0
+          3210.0 -770.1
+          3210.0 -1444.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1060.4 -1575.0
+          -1039.6 -1575.0
+          -1025.0 -1560.4
+          -1025.0 1560.4
+          -1039.6 1575.0
+          -1060.4 1575.0
+          -1075.0 1560.4
+          -1075.0 -1560.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1060.4 -1575.0
+          3560.4 -1575.0
+          3575.0 -1560.4
+          3575.0 -1539.6
+          3560.4 -1525.0
+          -1060.4 -1525.0
+          -1075.0 -1539.6
+          -1075.0 -1560.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          3539.6 -1575.0
+          3560.4 -1575.0
+          3575.0 -1560.4
+          3575.0 1560.4
+          3560.4 1575.0
+          3539.6 1575.0
+          3525.0 1560.4
+          3525.0 -1560.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1060.4 1525.0
+          3560.4 1525.0
+          3575.0 1539.6
+          3575.0 1560.4
+          3560.4 1575.0
+          -1060.4 1575.0
+          -1075.0 1560.4
+          -1075.0 1539.6
+        )
+      )
+    )
+    (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+      (side front)
+      (pin "Rect[A]Pad_1600x1600_um" 1 0.0 0.0)
+      (pin "Oval[A]Pad_1600x1600_um" 2 7620.0 0.0)
+      (outline
+        (polygon signal 0
+          1789.3 -1050.0
+          1830.7 -1050.0
+          1860.0 -1020.7
+          1860.0 1020.7
+          1830.7 1050.0
+          1789.3 1050.0
+          1760.0 1020.7
+          1760.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1789.3 -1050.0
+          5830.7 -1050.0
+          5860.0 -1020.7
+          5860.0 -979.3
+          5830.7 -950.0
+          1789.3 -950.0
+          1760.0 -979.3
+          1760.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          5789.3 -1050.0
+          5830.7 -1050.0
+          5860.0 -1020.7
+          5860.0 1020.7
+          5830.7 1050.0
+          5789.3 1050.0
+          5760.0 1020.7
+          5760.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1789.3 950.0
+          5830.7 950.0
+          5860.0 979.3
+          5860.0 1020.7
+          5830.7 1050.0
+          1789.3 1050.0
+          1760.0 1020.7
+          1760.0 979.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -20.7 -50.0
+          1830.7 -50.0
+          1860.0 -20.7
+          1860.0 20.7
+          1830.7 50.0
+          -20.7 50.0
+          -50.0 20.7
+          -50.0 -20.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          5789.3 -50.0
+          7640.7 -50.0
+          7670.0 -20.7
+          7670.0 20.7
+          7640.7 50.0
+          5789.3 50.0
+          5760.0 20.7
+          5760.0 -20.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          2389.3 -1050.0
+          2430.7 -1050.0
+          2460.0 -1020.7
+          2460.0 1020.7
+          2430.7 1050.0
+          2389.3 1050.0
+          2360.0 1020.7
+          2360.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          2489.3 -1050.0
+          2530.7 -1050.0
+          2560.0 -1020.7
+          2560.0 1020.7
+          2530.7 1050.0
+          2489.3 1050.0
+          2460.0 1020.7
+          2460.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          2289.3 -1050.0
+          2330.7 -1050.0
+          2360.0 -1020.7
+          2360.0 1020.7
+          2330.7 1050.0
+          2289.3 1050.0
+          2260.0 1020.7
+          2260.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1665.1 -1180.0
+          1714.9 -1180.0
+          1750.0 -1144.9
+          1750.0 1144.9
+          1714.9 1180.0
+          1665.1 1180.0
+          1630.0 1144.9
+          1630.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1665.1 -1180.0
+          5954.9 -1180.0
+          5990.0 -1144.9
+          5990.0 -1095.1
+          5954.9 -1060.0
+          1665.1 -1060.0
+          1630.0 -1095.1
+          1630.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          5905.1 -1180.0
+          5954.9 -1180.0
+          5990.0 -1144.9
+          5990.0 1144.9
+          5954.9 1180.0
+          5905.1 1180.0
+          5870.0 1144.9
+          5870.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1665.1 1060.0
+          5954.9 1060.0
+          5990.0 1095.1
+          5990.0 1144.9
+          5954.9 1180.0
+          1665.1 1180.0
+          1630.0 1144.9
+          1630.0 1095.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          1015.1 -60.0
+          1714.9 -60.0
+          1750.0 -24.9
+          1750.0 24.9
+          1714.9 60.0
+          1015.1 60.0
+          980.0 24.9
+          980.0 -24.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          5905.1 -60.0
+          6604.9 -60.0
+          6640.0 -24.9
+          6640.0 24.9
+          6604.9 60.0
+          5905.1 60.0
+          5870.0 24.9
+          5870.0 -24.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          2385.1 -1180.0
+          2434.9 -1180.0
+          2470.0 -1144.9
+          2470.0 1144.9
+          2434.9 1180.0
+          2385.1 1180.0
+          2350.0 1144.9
+          2350.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          2505.1 -1180.0
+          2554.9 -1180.0
+          2590.0 -1144.9
+          2590.0 1144.9
+          2554.9 1180.0
+          2505.1 1180.0
+          2470.0 1144.9
+          2470.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          2265.1 -1180.0
+          2314.9 -1180.0
+          2350.0 -1144.9
+          2350.0 1144.9
+          2314.9 1180.0
+          2265.1 1180.0
+          2230.0 1144.9
+          2230.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1060.4 -1275.0
+          -1039.6 -1275.0
+          -1025.0 -1260.4
+          -1025.0 1260.4
+          -1039.6 1275.0
+          -1060.4 1275.0
+          -1075.0 1260.4
+          -1075.0 -1260.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1060.4 -1275.0
+          8680.4 -1275.0
+          8695.0 -1260.4
+          8695.0 -1239.6
+          8680.4 -1225.0
+          -1060.4 -1225.0
+          -1075.0 -1239.6
+          -1075.0 -1260.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          8659.6 -1275.0
+          8680.4 -1275.0
+          8695.0 -1260.4
+          8695.0 1260.4
+          8680.4 1275.0
+          8659.6 1275.0
+          8645.0 1260.4
+          8645.0 -1260.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1060.4 1225.0
+          8680.4 1225.0
+          8695.0 1239.6
+          8695.0 1260.4
+          8680.4 1275.0
+          -1060.4 1275.0
+          -1075.0 1260.4
+          -1075.0 1239.6
+        )
+      )
+    )
+    (image "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal::1"
+      (side front)
+      (pin "Oval[A]Pad_1600x1600_um" 2 7620.0 0.0)
+      (pin "Rect[A]Pad_1600x1600_um" 1 0.0 0.0)
+      (outline
+        (polygon signal 0
+          -1060.4 1225.0
+          8680.4 1225.0
+          8695.0 1239.6
+          8695.0 1260.4
+          8680.4 1275.0
+          -1060.4 1275.0
+          -1075.0 1260.4
+          -1075.0 1239.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          8659.6 -1275.0
+          8680.4 -1275.0
+          8695.0 -1260.4
+          8695.0 1260.4
+          8680.4 1275.0
+          8659.6 1275.0
+          8645.0 1260.4
+          8645.0 -1260.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1060.4 -1275.0
+          8680.4 -1275.0
+          8695.0 -1260.4
+          8695.0 -1239.6
+          8680.4 -1225.0
+          -1060.4 -1225.0
+          -1075.0 -1239.6
+          -1075.0 -1260.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1060.4 -1275.0
+          -1039.6 -1275.0
+          -1025.0 -1260.4
+          -1025.0 1260.4
+          -1039.6 1275.0
+          -1060.4 1275.0
+          -1075.0 1260.4
+          -1075.0 -1260.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          2265.1 -1180.0
+          2314.9 -1180.0
+          2350.0 -1144.9
+          2350.0 1144.9
+          2314.9 1180.0
+          2265.1 1180.0
+          2230.0 1144.9
+          2230.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          2505.1 -1180.0
+          2554.9 -1180.0
+          2590.0 -1144.9
+          2590.0 1144.9
+          2554.9 1180.0
+          2505.1 1180.0
+          2470.0 1144.9
+          2470.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          2385.1 -1180.0
+          2434.9 -1180.0
+          2470.0 -1144.9
+          2470.0 1144.9
+          2434.9 1180.0
+          2385.1 1180.0
+          2350.0 1144.9
+          2350.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          5905.1 -60.0
+          6604.9 -60.0
+          6640.0 -24.9
+          6640.0 24.9
+          6604.9 60.0
+          5905.1 60.0
+          5870.0 24.9
+          5870.0 -24.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1015.1 -60.0
+          1714.9 -60.0
+          1750.0 -24.9
+          1750.0 24.9
+          1714.9 60.0
+          1015.1 60.0
+          980.0 24.9
+          980.0 -24.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1665.1 1060.0
+          5954.9 1060.0
+          5990.0 1095.1
+          5990.0 1144.9
+          5954.9 1180.0
+          1665.1 1180.0
+          1630.0 1144.9
+          1630.0 1095.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          5905.1 -1180.0
+          5954.9 -1180.0
+          5990.0 -1144.9
+          5990.0 1144.9
+          5954.9 1180.0
+          5905.1 1180.0
+          5870.0 1144.9
+          5870.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1665.1 -1180.0
+          5954.9 -1180.0
+          5990.0 -1144.9
+          5990.0 -1095.1
+          5954.9 -1060.0
+          1665.1 -1060.0
+          1630.0 -1095.1
+          1630.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1665.1 -1180.0
+          1714.9 -1180.0
+          1750.0 -1144.9
+          1750.0 1144.9
+          1714.9 1180.0
+          1665.1 1180.0
+          1630.0 1144.9
+          1630.0 -1144.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          2289.3 -1050.0
+          2330.7 -1050.0
+          2360.0 -1020.7
+          2360.0 1020.7
+          2330.7 1050.0
+          2289.3 1050.0
+          2260.0 1020.7
+          2260.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          2489.3 -1050.0
+          2530.7 -1050.0
+          2560.0 -1020.7
+          2560.0 1020.7
+          2530.7 1050.0
+          2489.3 1050.0
+          2460.0 1020.7
+          2460.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          2389.3 -1050.0
+          2430.7 -1050.0
+          2460.0 -1020.7
+          2460.0 1020.7
+          2430.7 1050.0
+          2389.3 1050.0
+          2360.0 1020.7
+          2360.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          5789.3 -50.0
+          7640.7 -50.0
+          7670.0 -20.7
+          7670.0 20.7
+          7640.7 50.0
+          5789.3 50.0
+          5760.0 20.7
+          5760.0 -20.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -20.7 -50.0
+          1830.7 -50.0
+          1860.0 -20.7
+          1860.0 20.7
+          1830.7 50.0
+          -20.7 50.0
+          -50.0 20.7
+          -50.0 -20.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1789.3 950.0
+          5830.7 950.0
+          5860.0 979.3
+          5860.0 1020.7
+          5830.7 1050.0
+          1789.3 1050.0
+          1760.0 1020.7
+          1760.0 979.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          5789.3 -1050.0
+          5830.7 -1050.0
+          5860.0 -1020.7
+          5860.0 1020.7
+          5830.7 1050.0
+          5789.3 1050.0
+          5760.0 1020.7
+          5760.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1789.3 -1050.0
+          5830.7 -1050.0
+          5860.0 -1020.7
+          5860.0 -979.3
+          5830.7 -950.0
+          1789.3 -950.0
+          1760.0 -979.3
+          1760.0 -1020.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1789.3 -1050.0
+          1830.7 -1050.0
+          1860.0 -1020.7
+          1860.0 1020.7
+          1830.7 1050.0
+          1789.3 1050.0
+          1760.0 1020.7
+          1760.0 -1020.7
+        )
+      )
+    )
+    (image "Resistor_THT:R_Array_SIP5"
+      (side front)
+      (pin "Oval[A]Pad_1600x1600_um" 5 10160.0 0.0)
+      (pin "Oval[A]Pad_1600x1600_um" 4 7620.0 0.0)
+      (pin "Oval[A]Pad_1600x1600_um" 3 5080.0 0.0)
+      (pin "Oval[A]Pad_1600x1600_um" 2 2540.0 0.0)
+      (pin "Rect[A]Pad_1600x1600_um" 1 0.0 0.0)
+      (outline
+        (polygon signal 0
+          -1710.4 1625.0
+          11910.4 1625.0
+          11925.0 1639.6
+          11925.0 1660.4
+          11910.4 1675.0
+          -1710.4 1675.0
+          -1725.0 1660.4
+          -1725.0 1639.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          11889.6 -1675.0
+          11910.4 -1675.0
+          11925.0 -1660.4
+          11925.0 1660.4
+          11910.4 1675.0
+          11889.6 1675.0
+          11875.0 1660.4
+          11875.0 -1660.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1710.4 -1675.0
+          11910.4 -1675.0
+          11925.0 -1660.4
+          11925.0 -1639.6
+          11910.4 -1625.0
+          -1710.4 -1625.0
+          -1725.0 -1639.6
+          -1725.0 -1660.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1710.4 -1675.0
+          -1689.6 -1675.0
+          -1675.0 -1660.4
+          -1675.0 1660.4
+          -1689.6 1675.0
+          -1710.4 1675.0
+          -1725.0 1660.4
+          -1725.0 -1660.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          1245.1 -1460.0
+          1294.9 -1460.0
+          1330.0 -1424.9
+          1330.0 1424.9
+          1294.9 1460.0
+          1245.1 1460.0
+          1210.0 1424.9
+          1210.0 -1424.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1464.9 1340.0
+          11624.9 1340.0
+          11660.0 1375.1
+          11660.0 1424.9
+          11624.9 1460.0
+          -1464.9 1460.0
+          -1500.0 1424.9
+          -1500.0 1375.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          11575.1 -1460.0
+          11624.9 -1460.0
+          11660.0 -1424.9
+          11660.0 1424.9
+          11624.9 1460.0
+          11575.1 1460.0
+          11540.0 1424.9
+          11540.0 -1424.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1464.9 -1460.0
+          11624.9 -1460.0
+          11660.0 -1424.9
+          11660.0 -1375.1
+          11624.9 -1340.0
+          -1464.9 -1340.0
+          -1500.0 -1375.1
+          -1500.0 -1424.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1464.9 -1460.0
+          -1415.1 -1460.0
+          -1380.0 -1424.9
+          -1380.0 1424.9
+          -1415.1 1460.0
+          -1464.9 1460.0
+          -1500.0 1424.9
+          -1500.0 -1424.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1249.3 -1300.0
+          1290.7 -1300.0
+          1320.0 -1270.7
+          1320.0 1270.7
+          1290.7 1300.0
+          1249.3 1300.0
+          1220.0 1270.7
+          1220.0 -1270.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1310.7 1200.0
+          11470.7 1200.0
+          11500.0 1229.3
+          11500.0 1270.7
+          11470.7 1300.0
+          -1310.7 1300.0
+          -1340.0 1270.7
+          -1340.0 1229.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          11429.3 -1300.0
+          11470.7 -1300.0
+          11500.0 -1270.7
+          11500.0 1270.7
+          11470.7 1300.0
+          11429.3 1300.0
+          11400.0 1270.7
+          11400.0 -1270.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1310.7 -1300.0
+          11470.7 -1300.0
+          11500.0 -1270.7
+          11500.0 -1229.3
+          11470.7 -1200.0
+          -1310.7 -1200.0
+          -1340.0 -1229.3
+          -1340.0 -1270.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1310.7 -1300.0
+          -1269.3 -1300.0
+          -1240.0 -1270.7
+          -1240.0 1270.7
+          -1269.3 1300.0
+          -1310.7 1300.0
+          -1340.0 1270.7
+          -1340.0 -1270.7
+        )
+      )
+    )
+    (image "Socket:DIP_Socket-28_W11.9_W12.7_W15.24_W17.78_W18.5_3M_228-1277-00-0602J"
+      (side front)
+      (pin "Rect[A]Pad_2000x1440_um" 1 0.0 0.0)
+      (pin "Oval[A]Pad_2000x1440_um" 28 15240.0 0.0)
+      (pin "Oval[A]Pad_2000x1440_um" 2 0.0 -2540.0)
+      (pin "Oval[A]Pad_2000x1440_um" 27 15240.0 -2540.0)
+      (pin "Oval[A]Pad_2000x1440_um" 3 0.0 -5080.0)
+      (pin "Oval[A]Pad_2000x1440_um" 26 15240.0 -5080.0)
+      (pin "Oval[A]Pad_2000x1440_um" 4 0.0 -7620.0)
+      (pin "Oval[A]Pad_2000x1440_um" 25 15240.0 -7620.0)
+      (pin "Oval[A]Pad_2000x1440_um" 5 0.0 -10160.0)
+      (pin "Oval[A]Pad_2000x1440_um" 24 15240.0 -10160.0)
+      (pin "Oval[A]Pad_2000x1440_um" 6 0.0 -12700.0)
+      (pin "Oval[A]Pad_2000x1440_um" 23 15240.0 -12700.0)
+      (pin "Oval[A]Pad_2000x1440_um" 7 0.0 -15240.0)
+      (pin "Oval[A]Pad_2000x1440_um" 22 15240.0 -15240.0)
+      (pin "Oval[A]Pad_2000x1440_um" 8 0.0 -17780.0)
+      (pin "Oval[A]Pad_2000x1440_um" 21 15240.0 -17780.0)
+      (pin "Oval[A]Pad_2000x1440_um" 9 0.0 -20320.0)
+      (pin "Oval[A]Pad_2000x1440_um" 20 15240.0 -20320.0)
+      (pin "Oval[A]Pad_2000x1440_um" 10 0.0 -22860.0)
+      (pin "Oval[A]Pad_2000x1440_um" 19 15240.0 -22860.0)
+      (pin "Oval[A]Pad_2000x1440_um" 11 0.0 -25400.0)
+      (pin "Oval[A]Pad_2000x1440_um" 18 15240.0 -25400.0)
+      (pin "Oval[A]Pad_2000x1440_um" 12 0.0 -27940.0)
+      (pin "Oval[A]Pad_2000x1440_um" 17 15240.0 -27940.0)
+      (pin "Oval[A]Pad_2000x1440_um" 13 0.0 -30480.0)
+      (pin "Oval[A]Pad_2000x1440_um" 16 15240.0 -30480.0)
+      (pin "Oval[A]Pad_2000x1440_um" 14 0.0 -33020.0)
+      (pin "Oval[A]Pad_2000x1440_um" 15 15240.0 -33020.0)
+      (outline
+        (polygon signal 0
+          -3041.486815920398 3745.0
+          -3034.1346410684473 3745.0
+          -2393.4162173842965 3867.2456874619543
+          -1801.0705138703186 4146.008655125344
+          -1300.5888366627498 4560.01116333725
+          -1295.3299151343706 4565.2700848656295
+          -912.5159205246835 5092.161531798472
+          -671.4737113135768 5700.964697689508
+          -590.0 6346.041198501873
+          -590.0 6353.958801498127
+          -671.4737113135768 6999.035302310493
+          -912.5159205246835 7607.838468201527
+          -1295.3299151343706 8134.7299151343705
+          -1300.5888366627498 8139.988836662749
+          -1801.0705138703186 8553.991344874656
+          -2393.4162173842965 8832.754312538045
+          -3034.1346410684473 8955.0
+          -3041.486815920398 8955.0
+          -3689.2560799868675 8914.178046064475
+          -4311.529543276091 8712.008266496088
+          -4863.168052738337 8361.931947261663
+          -4867.4964664310955 8357.603533568905
+          -5312.033368373469 7884.31801571024
+          -5627.010938965578 7311.240928845349
+          -5789.9 6676.998050314466
+          -5789.9 6023.001949685535
+          -5627.012878473182 5388.7666230361465
+          -5312.014905770965 4815.75472141058
+          -4867.638028169014 4342.538028169014
+          -4863.168052738337 4338.0680527383365
+          -4311.529543276091 3987.991733503912
+          -3689.2560799868675 3785.821953935526
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3303.635782195333 5394.9
+          -3291.251530612245 5394.9
+          -2902.83104143577 5435.8083373877425
+          -2560.895182481752 5633.204817518248
+          -2552.064328899637 5642.035671100363
+          -2321.8305041730464 5958.816483576449
+          -2240.0 6343.88264781491
+          -2240.0 6356.11735218509
+          -2321.8305041730464 6741.18351642355
+          -2552.064328899637 7057.964328899638
+          -2560.8682249817384 7066.768224981739
+          -2902.8543342315816 7264.299232854527
+          -3291.244245524297 7305.1
+          -3303.635782195333 7305.1
+          -3680.5925096402098 7182.554640726687
+          -3970.2667870036103 6921.733212996389
+          -3978.3954665260935 6913.604533473906
+          -4140.3 6549.9044021024965
+          -4140.3 6150.0955978975035
+          -3978.3954665260935 5786.3954665260935
+          -3970.2667870036103 5778.26678700361
+          -3680.5925096402098 5517.445359273313
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5510.4 23335.0
+          110.4 23335.0
+          125.0 23349.6
+          125.0 23370.4
+          110.4 23385.0
+          -5510.4 23385.0
+          -5525.0 23370.4
+          -5525.0 23349.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          89.6 11035.0
+          110.4 11035.0
+          125.0 11049.6
+          125.0 23370.4
+          110.4 23385.0
+          89.6 23385.0
+          75.0 23370.4
+          75.0 11049.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          89.6 11035.0
+          19580.4 11035.0
+          19595.0 11049.6
+          19595.0 11070.4
+          19580.4 11085.0
+          89.6 11085.0
+          75.0 11070.4
+          75.0 11049.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          19559.6 -40365.0
+          19580.4 -40365.0
+          19595.0 -40350.4
+          19595.0 11070.4
+          19580.4 11085.0
+          19559.6 11085.0
+          19545.0 11070.4
+          19545.0 -40350.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -4340.4 -40365.0
+          19580.4 -40365.0
+          19595.0 -40350.4
+          19595.0 -40329.6
+          19580.4 -40315.0
+          -4340.4 -40315.0
+          -4355.0 -40329.6
+          -4355.0 -40350.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -4340.4 -40365.0
+          -4319.6 -40365.0
+          -4305.0 -40350.4
+          -4305.0 3410.4
+          -4319.6 3425.0
+          -4340.4 3425.0
+          -4355.0 3410.4
+          -4355.0 -40350.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5510.4 3375.0
+          -4319.6 3375.0
+          -4305.0 3389.6
+          -4305.0 3410.4
+          -4319.6 3425.0
+          -5510.4 3425.0
+          -5525.0 3410.4
+          -5525.0 3389.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5510.4 3375.0
+          -5489.6 3375.0
+          -5475.0 3389.6
+          -5475.0 23370.4
+          -5489.6 23385.0
+          -5510.4 23385.0
+          -5525.0 23370.4
+          -5525.0 3389.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5020.7 21410.0
+          -4979.3 21410.0
+          -3650.0 22739.3
+          -3650.0 22880.7
+          -3679.3 22910.0
+          -3720.7 22910.0
+          -5050.0 21580.7
+          -5050.0 21439.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3720.7 22810.0
+          -1679.3 22810.0
+          -1650.0 22839.3
+          -1650.0 22880.7
+          -1679.3 22910.0
+          -3720.7 22910.0
+          -3750.0 22880.7
+          -3750.0 22839.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -420.7 21410.0
+          -379.3 21410.0
+          -350.0 21439.3
+          -350.0 21580.7
+          -1679.3 22910.0
+          -1720.7 22910.0
+          -1750.0 22880.7
+          -1750.0 22739.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5020.7 21410.0
+          -379.3 21410.0
+          -350.0 21439.3
+          -350.0 21480.7
+          -379.3 21510.0
+          -5020.7 21510.0
+          -5050.0 21480.7
+          -5050.0 21439.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5020.7 17810.0
+          -4979.3 17810.0
+          -4950.0 17839.3
+          -4950.0 21480.7
+          -4979.3 21510.0
+          -5020.7 21510.0
+          -5050.0 21480.7
+          -5050.0 17839.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -5020.7 17810.0
+          -379.3 17810.0
+          -350.0 17839.3
+          -350.0 17880.7
+          -379.3 17910.0
+          -5020.7 17910.0
+          -5050.0 17880.7
+          -5050.0 17839.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -420.7 17810.0
+          -379.3 17810.0
+          -350.0 17839.3
+          -350.0 21480.7
+          -379.3 21510.0
+          -420.7 21510.0
+          -450.0 21480.7
+          -450.0 17839.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3520.7 15810.0
+          -3479.3 15810.0
+          -3450.0 15839.3
+          -3450.0 16380.7
+          -4979.3 17910.0
+          -5020.7 17910.0
+          -5050.0 17880.7
+          -5050.0 17339.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1920.7 15810.0
+          -1879.3 15810.0
+          -350.0 17339.3
+          -350.0 17880.7
+          -379.3 17910.0
+          -420.7 17910.0
+          -1950.0 16380.7
+          -1950.0 15839.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3520.7 9700.0
+          -3479.3 9700.0
+          -3450.0 9729.3
+          -3450.0 15880.7
+          -3479.3 15910.0
+          -3520.7 15910.0
+          -3550.0 15880.7
+          -3550.0 9729.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3520.7 15810.0
+          -1879.3 15810.0
+          -1850.0 15839.3
+          -1850.0 15880.7
+          -1879.3 15910.0
+          -3520.7 15910.0
+          -3550.0 15880.7
+          -3550.0 15839.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1920.7 10510.0
+          -1879.3 10510.0
+          -1850.0 10539.3
+          -1850.0 15880.7
+          -1879.3 15910.0
+          -1920.7 15910.0
+          -1950.0 15880.7
+          -1950.0 10539.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3850.7 -39890.0
+          19090.7 -39890.0
+          19120.0 -39860.7
+          19120.0 -39819.3
+          19090.7 -39790.0
+          -3850.7 -39790.0
+          -3880.0 -39819.3
+          -3880.0 -39860.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3850.7 -39890.0
+          -3809.3 -39890.0
+          -3780.0 -39860.7
+          -3780.0 9420.7
+          -3809.3 9450.0
+          -3850.7 9450.0
+          -3880.0 9420.7
+          -3880.0 -39860.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3850.7 9350.0
+          -3809.3 9350.0
+          -2800.0 10359.3
+          -2800.0 10580.7
+          -2829.3 10610.0
+          -2870.7 10610.0
+          -3880.0 9600.7
+          -3880.0 9379.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          -2870.7 10510.0
+          19090.7 10510.0
+          19120.0 10539.3
+          19120.0 10580.7
+          19090.7 10610.0
+          -2870.7 10610.0
+          -2900.0 10580.7
+          -2900.0 10539.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          19049.3 -39890.0
+          19090.7 -39890.0
+          19120.0 -39860.7
+          19120.0 10580.7
+          19090.7 10610.0
+          19049.3 10610.0
+          19020.0 10580.7
+          19020.0 -39860.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3954.9 -40000.0
+          -3905.1 -40000.0
+          -3870.0 -39964.9
+          -3870.0 3924.9
+          -3905.1 3960.0
+          -3954.9 3960.0
+          -3990.0 3924.9
+          -3990.0 -39964.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3954.9 -40000.0
+          19194.9 -40000.0
+          19230.0 -39964.9
+          19230.0 -39915.1
+          19194.9 -39880.0
+          -3954.9 -39880.0
+          -3990.0 -39915.1
+          -3990.0 -39964.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          19145.1 -40000.0
+          19194.9 -40000.0
+          19230.0 -39964.9
+          19230.0 10684.9
+          19194.9 10720.0
+          19145.1 10720.0
+          19110.0 10684.9
+          19110.0 -39964.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3954.9 10600.0
+          19194.9 10600.0
+          19230.0 10635.1
+          19230.0 10684.9
+          19194.9 10720.0
+          -3954.9 10720.0
+          -3990.0 10684.9
+          -3990.0 10635.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -3954.9 8740.0
+          -3905.1 8740.0
+          -3870.0 8775.1
+          -3870.0 10684.9
+          -3905.1 10720.0
+          -3954.9 10720.0
+          -3990.0 10684.9
+          -3990.0 8775.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1674.9 8340.0
+          -1625.1 8340.0
+          -1590.0 8375.1
+          -1590.0 10684.9
+          -1625.1 10720.0
+          -1674.9 10720.0
+          -1710.0 10684.9
+          -1710.0 8375.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -4974.9 -1330.0
+          -4925.1 -1330.0
+          -4890.0 -1294.9
+          -4890.0 1294.9
+          -4925.1 1330.0
+          -4974.9 1330.0
+          -5010.0 1294.9
+          -5010.0 -1294.9
+        )
+      )
+    )
+    (image "Button_Switch_THT:SW_DIP_SPSTx05_Slide_9.78x14.88mm_W7.62mm_P2.54mm"
+      (side front)
+      (pin "Rect[A]Pad_1600x1600_um" 1 0.0 0.0)
+      (pin "Oval[A]Pad_1600x1600_um" 6 7620.0 -10160.0)
+      (pin "Oval[A]Pad_1600x1600_um" 2 0.0 -2540.0)
+      (pin "Oval[A]Pad_1600x1600_um" 7 7620.0 -7620.0)
+      (pin "Oval[A]Pad_1600x1600_um" 3 0.0 -5080.0)
+      (pin "Oval[A]Pad_1600x1600_um" 8 7620.0 -5080.0)
+      (pin "Oval[A]Pad_1600x1600_um" 4 0.0 -7620.0)
+      (pin "Oval[A]Pad_1600x1600_um" 9 7620.0 -2540.0)
+      (pin "Oval[A]Pad_1600x1600_um" 5 0.0 -10160.0)
+      (pin "Oval[A]Pad_1600x1600_um" 10 7620.0 0.0)
+      (outline
+        (polygon signal 0
+          -100.7 2310.0
+          8720.7 2310.0
+          8750.0 2339.3
+          8750.0 2380.7
+          8720.7 2410.0
+          -100.7 2410.0
+          -130.0 2380.7
+          -130.0 2339.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          8679.3 -12570.0
+          8720.7 -12570.0
+          8750.0 -12540.7
+          8750.0 2380.7
+          8720.7 2410.0
+          8679.3 2410.0
+          8650.0 2380.7
+          8650.0 -12540.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1100.7 -12570.0
+          8720.7 -12570.0
+          8750.0 -12540.7
+          8750.0 -12499.3
+          8720.7 -12470.0
+          -1100.7 -12470.0
+          -1130.0 -12499.3
+          -1130.0 -12540.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1100.7 -12570.0
+          -1059.3 -12570.0
+          -1030.0 -12540.7
+          -1030.0 1380.7
+          -1059.3 1410.0
+          -1100.7 1410.0
+          -1130.0 1380.7
+          -1130.0 -12540.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1100.7 1310.0
+          -1059.3 1310.0
+          -30.0 2339.3
+          -30.0 2380.7
+          -59.3 2410.0
+          -100.7 2410.0
+          -1130.0 1380.7
+          -1130.0 1339.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -685.0
+          1800.7 -685.0
+          1830.0 -655.7
+          1830.0 655.7
+          1800.7 685.0
+          1759.3 685.0
+          1730.0 655.7
+          1730.0 -655.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -685.0
+          5860.7 -685.0
+          5890.0 -655.7
+          5890.0 -614.3
+          5860.7 -585.0
+          1759.3 -585.0
+          1730.0 -614.3
+          1730.0 -655.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          5819.3 -685.0
+          5860.7 -685.0
+          5890.0 -655.7
+          5890.0 655.7
+          5860.7 685.0
+          5819.3 685.0
+          5790.0 655.7
+          5790.0 -655.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 585.0
+          5860.7 585.0
+          5890.0 614.3
+          5890.0 655.7
+          5860.7 685.0
+          1759.3 685.0
+          1730.0 655.7
+          1730.0 614.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 485.0
+          3154.1 485.0
+          3183.4 514.3
+          3183.4 555.7
+          3154.1 585.0
+          1759.3 585.0
+          1730.0 555.7
+          1730.0 514.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 385.0
+          3154.1 385.0
+          3183.4 414.3
+          3183.4 455.7
+          3154.1 485.0
+          1759.3 485.0
+          1730.0 455.7
+          1730.0 414.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 285.0
+          3154.1 285.0
+          3183.4 314.3
+          3183.4 355.7
+          3154.1 385.0
+          1759.3 385.0
+          1730.0 355.7
+          1730.0 314.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 185.0
+          3154.1 185.0
+          3183.4 214.3
+          3183.4 255.7
+          3154.1 285.0
+          1759.3 285.0
+          1730.0 255.7
+          1730.0 214.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 85.0
+          3154.1 85.0
+          3183.4 114.3
+          3183.4 155.7
+          3154.1 185.0
+          1759.3 185.0
+          1730.0 155.7
+          1730.0 114.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -15.0
+          3154.1 -15.0
+          3183.4 14.3
+          3183.4 55.7
+          3154.1 85.0
+          1759.3 85.0
+          1730.0 55.7
+          1730.0 14.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -115.0
+          3154.1 -115.0
+          3183.4 -85.7
+          3183.4 -44.3
+          3154.1 -15.0
+          1759.3 -15.0
+          1730.0 -44.3
+          1730.0 -85.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -215.0
+          3154.1 -215.0
+          3183.4 -185.7
+          3183.4 -144.3
+          3154.1 -115.0
+          1759.3 -115.0
+          1730.0 -144.3
+          1730.0 -185.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -315.0
+          3154.1 -315.0
+          3183.4 -285.7
+          3183.4 -244.3
+          3154.1 -215.0
+          1759.3 -215.0
+          1730.0 -244.3
+          1730.0 -285.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -415.0
+          3154.1 -415.0
+          3183.4 -385.7
+          3183.4 -344.3
+          3154.1 -315.0
+          1759.3 -315.0
+          1730.0 -344.3
+          1730.0 -385.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -515.0
+          3154.1 -515.0
+          3183.4 -485.7
+          3183.4 -444.3
+          3154.1 -415.0
+          1759.3 -415.0
+          1730.0 -444.3
+          1730.0 -485.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -615.0
+          3154.1 -615.0
+          3183.4 -585.7
+          3183.4 -544.3
+          3154.1 -515.0
+          1759.3 -515.0
+          1730.0 -544.3
+          1730.0 -585.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          3112.6 -685.0
+          3154.1 -685.0
+          3183.4 -655.7
+          3183.4 655.7
+          3154.1 685.0
+          3112.6 685.0
+          3083.3 655.7
+          3083.3 -655.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -3225.0
+          1800.7 -3225.0
+          1830.0 -3195.7
+          1830.0 -1884.3
+          1800.7 -1855.0
+          1759.3 -1855.0
+          1730.0 -1884.3
+          1730.0 -3195.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -3225.0
+          5860.7 -3225.0
+          5890.0 -3195.7
+          5890.0 -3154.3
+          5860.7 -3125.0
+          1759.3 -3125.0
+          1730.0 -3154.3
+          1730.0 -3195.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          5819.3 -3225.0
+          5860.7 -3225.0
+          5890.0 -3195.7
+          5890.0 -1884.3
+          5860.7 -1855.0
+          5819.3 -1855.0
+          5790.0 -1884.3
+          5790.0 -3195.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -1955.0
+          5860.7 -1955.0
+          5890.0 -1925.7
+          5890.0 -1884.3
+          5860.7 -1855.0
+          1759.3 -1855.0
+          1730.0 -1884.3
+          1730.0 -1925.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -2055.0
+          3154.1 -2055.0
+          3183.4 -2025.7
+          3183.4 -1984.3
+          3154.1 -1955.0
+          1759.3 -1955.0
+          1730.0 -1984.3
+          1730.0 -2025.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -2155.0
+          3154.1 -2155.0
+          3183.4 -2125.7
+          3183.4 -2084.3
+          3154.1 -2055.0
+          1759.3 -2055.0
+          1730.0 -2084.3
+          1730.0 -2125.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -2255.0
+          3154.1 -2255.0
+          3183.4 -2225.7
+          3183.4 -2184.3
+          3154.1 -2155.0
+          1759.3 -2155.0
+          1730.0 -2184.3
+          1730.0 -2225.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -2355.0
+          3154.1 -2355.0
+          3183.4 -2325.7
+          3183.4 -2284.3
+          3154.1 -2255.0
+          1759.3 -2255.0
+          1730.0 -2284.3
+          1730.0 -2325.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -2455.0
+          3154.1 -2455.0
+          3183.4 -2425.7
+          3183.4 -2384.3
+          3154.1 -2355.0
+          1759.3 -2355.0
+          1730.0 -2384.3
+          1730.0 -2425.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -2555.0
+          3154.1 -2555.0
+          3183.4 -2525.7
+          3183.4 -2484.3
+          3154.1 -2455.0
+          1759.3 -2455.0
+          1730.0 -2484.3
+          1730.0 -2525.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -2655.0
+          3154.1 -2655.0
+          3183.4 -2625.7
+          3183.4 -2584.3
+          3154.1 -2555.0
+          1759.3 -2555.0
+          1730.0 -2584.3
+          1730.0 -2625.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -2755.0
+          3154.1 -2755.0
+          3183.4 -2725.7
+          3183.4 -2684.3
+          3154.1 -2655.0
+          1759.3 -2655.0
+          1730.0 -2684.3
+          1730.0 -2725.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -2855.0
+          3154.1 -2855.0
+          3183.4 -2825.7
+          3183.4 -2784.3
+          3154.1 -2755.0
+          1759.3 -2755.0
+          1730.0 -2784.3
+          1730.0 -2825.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -2955.0
+          3154.1 -2955.0
+          3183.4 -2925.7
+          3183.4 -2884.3
+          3154.1 -2855.0
+          1759.3 -2855.0
+          1730.0 -2884.3
+          1730.0 -2925.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -3055.0
+          3154.1 -3055.0
+          3183.4 -3025.7
+          3183.4 -2984.3
+          3154.1 -2955.0
+          1759.3 -2955.0
+          1730.0 -2984.3
+          1730.0 -3025.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -3155.0
+          3154.1 -3155.0
+          3183.4 -3125.7
+          3183.4 -3084.3
+          3154.1 -3055.0
+          1759.3 -3055.0
+          1730.0 -3084.3
+          1730.0 -3125.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          3112.6 -3225.0
+          3154.1 -3225.0
+          3183.4 -3195.7
+          3183.4 -1884.3
+          3154.1 -1855.0
+          3112.6 -1855.0
+          3083.3 -1884.3
+          3083.3 -3195.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -5765.0
+          1800.7 -5765.0
+          1830.0 -5735.7
+          1830.0 -4424.3
+          1800.7 -4395.0
+          1759.3 -4395.0
+          1730.0 -4424.3
+          1730.0 -5735.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -5765.0
+          5860.7 -5765.0
+          5890.0 -5735.7
+          5890.0 -5694.3
+          5860.7 -5665.0
+          1759.3 -5665.0
+          1730.0 -5694.3
+          1730.0 -5735.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          5819.3 -5765.0
+          5860.7 -5765.0
+          5890.0 -5735.7
+          5890.0 -4424.3
+          5860.7 -4395.0
+          5819.3 -4395.0
+          5790.0 -4424.3
+          5790.0 -5735.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -4495.0
+          5860.7 -4495.0
+          5890.0 -4465.7
+          5890.0 -4424.3
+          5860.7 -4395.0
+          1759.3 -4395.0
+          1730.0 -4424.3
+          1730.0 -4465.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -4595.0
+          3154.1 -4595.0
+          3183.4 -4565.7
+          3183.4 -4524.3
+          3154.1 -4495.0
+          1759.3 -4495.0
+          1730.0 -4524.3
+          1730.0 -4565.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -4695.0
+          3154.1 -4695.0
+          3183.4 -4665.7
+          3183.4 -4624.3
+          3154.1 -4595.0
+          1759.3 -4595.0
+          1730.0 -4624.3
+          1730.0 -4665.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -4795.0
+          3154.1 -4795.0
+          3183.4 -4765.7
+          3183.4 -4724.3
+          3154.1 -4695.0
+          1759.3 -4695.0
+          1730.0 -4724.3
+          1730.0 -4765.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -4895.0
+          3154.1 -4895.0
+          3183.4 -4865.7
+          3183.4 -4824.3
+          3154.1 -4795.0
+          1759.3 -4795.0
+          1730.0 -4824.3
+          1730.0 -4865.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -4995.0
+          3154.1 -4995.0
+          3183.4 -4965.7
+          3183.4 -4924.3
+          3154.1 -4895.0
+          1759.3 -4895.0
+          1730.0 -4924.3
+          1730.0 -4965.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -5095.0
+          3154.1 -5095.0
+          3183.4 -5065.7
+          3183.4 -5024.3
+          3154.1 -4995.0
+          1759.3 -4995.0
+          1730.0 -5024.3
+          1730.0 -5065.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -5195.0
+          3154.1 -5195.0
+          3183.4 -5165.7
+          3183.4 -5124.3
+          3154.1 -5095.0
+          1759.3 -5095.0
+          1730.0 -5124.3
+          1730.0 -5165.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -5295.0
+          3154.1 -5295.0
+          3183.4 -5265.7
+          3183.4 -5224.3
+          3154.1 -5195.0
+          1759.3 -5195.0
+          1730.0 -5224.3
+          1730.0 -5265.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -5395.0
+          3154.1 -5395.0
+          3183.4 -5365.7
+          3183.4 -5324.3
+          3154.1 -5295.0
+          1759.3 -5295.0
+          1730.0 -5324.3
+          1730.0 -5365.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -5495.0
+          3154.1 -5495.0
+          3183.4 -5465.7
+          3183.4 -5424.3
+          3154.1 -5395.0
+          1759.3 -5395.0
+          1730.0 -5424.3
+          1730.0 -5465.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -5595.0
+          3154.1 -5595.0
+          3183.4 -5565.7
+          3183.4 -5524.3
+          3154.1 -5495.0
+          1759.3 -5495.0
+          1730.0 -5524.3
+          1730.0 -5565.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -5695.0
+          3154.1 -5695.0
+          3183.4 -5665.7
+          3183.4 -5624.3
+          3154.1 -5595.0
+          1759.3 -5595.0
+          1730.0 -5624.3
+          1730.0 -5665.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          3112.6 -5765.0
+          3154.1 -5765.0
+          3183.4 -5735.7
+          3183.4 -4424.3
+          3154.1 -4395.0
+          3112.6 -4395.0
+          3083.3 -4424.3
+          3083.3 -5735.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -8305.0
+          1800.7 -8305.0
+          1830.0 -8275.7
+          1830.0 -6964.3
+          1800.7 -6935.0
+          1759.3 -6935.0
+          1730.0 -6964.3
+          1730.0 -8275.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -8305.0
+          5860.7 -8305.0
+          5890.0 -8275.7
+          5890.0 -8234.3
+          5860.7 -8205.0
+          1759.3 -8205.0
+          1730.0 -8234.3
+          1730.0 -8275.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          5819.3 -8305.0
+          5860.7 -8305.0
+          5890.0 -8275.7
+          5890.0 -6964.3
+          5860.7 -6935.0
+          5819.3 -6935.0
+          5790.0 -6964.3
+          5790.0 -8275.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -7035.0
+          5860.7 -7035.0
+          5890.0 -7005.7
+          5890.0 -6964.3
+          5860.7 -6935.0
+          1759.3 -6935.0
+          1730.0 -6964.3
+          1730.0 -7005.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -7135.0
+          3154.1 -7135.0
+          3183.4 -7105.7
+          3183.4 -7064.3
+          3154.1 -7035.0
+          1759.3 -7035.0
+          1730.0 -7064.3
+          1730.0 -7105.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -7235.0
+          3154.1 -7235.0
+          3183.4 -7205.7
+          3183.4 -7164.3
+          3154.1 -7135.0
+          1759.3 -7135.0
+          1730.0 -7164.3
+          1730.0 -7205.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -7335.0
+          3154.1 -7335.0
+          3183.4 -7305.7
+          3183.4 -7264.3
+          3154.1 -7235.0
+          1759.3 -7235.0
+          1730.0 -7264.3
+          1730.0 -7305.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -7435.0
+          3154.1 -7435.0
+          3183.4 -7405.7
+          3183.4 -7364.3
+          3154.1 -7335.0
+          1759.3 -7335.0
+          1730.0 -7364.3
+          1730.0 -7405.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -7535.0
+          3154.1 -7535.0
+          3183.4 -7505.7
+          3183.4 -7464.3
+          3154.1 -7435.0
+          1759.3 -7435.0
+          1730.0 -7464.3
+          1730.0 -7505.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -7635.0
+          3154.1 -7635.0
+          3183.4 -7605.7
+          3183.4 -7564.3
+          3154.1 -7535.0
+          1759.3 -7535.0
+          1730.0 -7564.3
+          1730.0 -7605.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -7735.0
+          3154.1 -7735.0
+          3183.4 -7705.7
+          3183.4 -7664.3
+          3154.1 -7635.0
+          1759.3 -7635.0
+          1730.0 -7664.3
+          1730.0 -7705.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -7835.0
+          3154.1 -7835.0
+          3183.4 -7805.7
+          3183.4 -7764.3
+          3154.1 -7735.0
+          1759.3 -7735.0
+          1730.0 -7764.3
+          1730.0 -7805.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -7935.0
+          3154.1 -7935.0
+          3183.4 -7905.7
+          3183.4 -7864.3
+          3154.1 -7835.0
+          1759.3 -7835.0
+          1730.0 -7864.3
+          1730.0 -7905.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -8035.0
+          3154.1 -8035.0
+          3183.4 -8005.7
+          3183.4 -7964.3
+          3154.1 -7935.0
+          1759.3 -7935.0
+          1730.0 -7964.3
+          1730.0 -8005.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -8135.0
+          3154.1 -8135.0
+          3183.4 -8105.7
+          3183.4 -8064.3
+          3154.1 -8035.0
+          1759.3 -8035.0
+          1730.0 -8064.3
+          1730.0 -8105.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -8235.0
+          3154.1 -8235.0
+          3183.4 -8205.7
+          3183.4 -8164.3
+          3154.1 -8135.0
+          1759.3 -8135.0
+          1730.0 -8164.3
+          1730.0 -8205.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          3112.6 -8305.0
+          3154.1 -8305.0
+          3183.4 -8275.7
+          3183.4 -6964.3
+          3154.1 -6935.0
+          3112.6 -6935.0
+          3083.3 -6964.3
+          3083.3 -8275.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -10845.0
+          1800.7 -10845.0
+          1830.0 -10815.7
+          1830.0 -9504.3
+          1800.7 -9475.0
+          1759.3 -9475.0
+          1730.0 -9504.3
+          1730.0 -10815.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -10845.0
+          5860.7 -10845.0
+          5890.0 -10815.7
+          5890.0 -10774.3
+          5860.7 -10745.0
+          1759.3 -10745.0
+          1730.0 -10774.3
+          1730.0 -10815.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          5819.3 -10845.0
+          5860.7 -10845.0
+          5890.0 -10815.7
+          5890.0 -9504.3
+          5860.7 -9475.0
+          5819.3 -9475.0
+          5790.0 -9504.3
+          5790.0 -10815.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -9575.0
+          5860.7 -9575.0
+          5890.0 -9545.7
+          5890.0 -9504.3
+          5860.7 -9475.0
+          1759.3 -9475.0
+          1730.0 -9504.3
+          1730.0 -9545.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -9675.0
+          3154.1 -9675.0
+          3183.4 -9645.7
+          3183.4 -9604.3
+          3154.1 -9575.0
+          1759.3 -9575.0
+          1730.0 -9604.3
+          1730.0 -9645.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -9775.0
+          3154.1 -9775.0
+          3183.4 -9745.7
+          3183.4 -9704.3
+          3154.1 -9675.0
+          1759.3 -9675.0
+          1730.0 -9704.3
+          1730.0 -9745.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -9875.0
+          3154.1 -9875.0
+          3183.4 -9845.7
+          3183.4 -9804.3
+          3154.1 -9775.0
+          1759.3 -9775.0
+          1730.0 -9804.3
+          1730.0 -9845.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -9975.0
+          3154.1 -9975.0
+          3183.4 -9945.7
+          3183.4 -9904.3
+          3154.1 -9875.0
+          1759.3 -9875.0
+          1730.0 -9904.3
+          1730.0 -9945.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -10075.0
+          3154.1 -10075.0
+          3183.4 -10045.7
+          3183.4 -10004.3
+          3154.1 -9975.0
+          1759.3 -9975.0
+          1730.0 -10004.3
+          1730.0 -10045.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -10175.0
+          3154.1 -10175.0
+          3183.4 -10145.7
+          3183.4 -10104.3
+          3154.1 -10075.0
+          1759.3 -10075.0
+          1730.0 -10104.3
+          1730.0 -10145.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -10275.0
+          3154.1 -10275.0
+          3183.4 -10245.7
+          3183.4 -10204.3
+          3154.1 -10175.0
+          1759.3 -10175.0
+          1730.0 -10204.3
+          1730.0 -10245.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -10375.0
+          3154.1 -10375.0
+          3183.4 -10345.7
+          3183.4 -10304.3
+          3154.1 -10275.0
+          1759.3 -10275.0
+          1730.0 -10304.3
+          1730.0 -10345.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -10475.0
+          3154.1 -10475.0
+          3183.4 -10445.7
+          3183.4 -10404.3
+          3154.1 -10375.0
+          1759.3 -10375.0
+          1730.0 -10404.3
+          1730.0 -10445.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -10575.0
+          3154.1 -10575.0
+          3183.4 -10545.7
+          3183.4 -10504.3
+          3154.1 -10475.0
+          1759.3 -10475.0
+          1730.0 -10504.3
+          1730.0 -10545.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -10675.0
+          3154.1 -10675.0
+          3183.4 -10645.7
+          3183.4 -10604.3
+          3154.1 -10575.0
+          1759.3 -10575.0
+          1730.0 -10604.3
+          1730.0 -10645.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          1759.3 -10775.0
+          3154.1 -10775.0
+          3183.4 -10745.7
+          3183.4 -10704.3
+          3154.1 -10675.0
+          1759.3 -10675.0
+          1730.0 -10704.3
+          1730.0 -10745.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          3112.6 -10845.0
+          3154.1 -10845.0
+          3183.4 -10815.7
+          3183.4 -9504.3
+          3154.1 -9475.0
+          3112.6 -9475.0
+          3083.3 -9504.3
+          3083.3 -10815.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1164.9 2360.0
+          8784.9 2360.0
+          8820.0 2395.1
+          8820.0 2444.9
+          8784.9 2480.0
+          -1164.9 2480.0
+          -1200.0 2444.9
+          -1200.0 2395.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1164.9 -12640.0
+          8784.9 -12640.0
+          8820.0 -12604.9
+          8820.0 -12555.1
+          8784.9 -12520.0
+          -1164.9 -12520.0
+          -1200.0 -12555.1
+          -1200.0 -12604.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1164.9 -12640.0
+          -1115.1 -12640.0
+          -1080.0 -12604.9
+          -1080.0 2444.9
+          -1115.1 2480.0
+          -1164.9 2480.0
+          -1200.0 2444.9
+          -1200.0 -12604.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          8735.1 -12640.0
+          8784.9 -12640.0
+          8820.0 -12604.9
+          8820.0 2444.9
+          8784.9 2480.0
+          8735.1 2480.0
+          8700.0 2444.9
+          8700.0 -12604.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1404.9 2600.0
+          28.9 2600.0
+          64.0 2635.1
+          64.0 2684.9
+          28.9 2720.0
+          -1404.9 2720.0
+          -1440.0 2684.9
+          -1440.0 2635.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1404.9 1217.0
+          -1355.1 1217.0
+          -1320.0 1252.1
+          -1320.0 2684.9
+          -1355.1 2720.0
+          -1404.9 2720.0
+          -1440.0 2684.9
+          -1440.0 1252.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -695.0
+          1804.9 -695.0
+          1840.0 -659.9
+          1840.0 659.9
+          1804.9 695.0
+          1755.1 695.0
+          1720.0 659.9
+          1720.0 -659.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -695.0
+          5864.9 -695.0
+          5900.0 -659.9
+          5900.0 -610.1
+          5864.9 -575.0
+          1755.1 -575.0
+          1720.0 -610.1
+          1720.0 -659.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          5815.1 -695.0
+          5864.9 -695.0
+          5900.0 -659.9
+          5900.0 659.9
+          5864.9 695.0
+          5815.1 695.0
+          5780.0 659.9
+          5780.0 -659.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 575.0
+          5864.9 575.0
+          5900.0 610.1
+          5900.0 659.9
+          5864.9 695.0
+          1755.1 695.0
+          1720.0 659.9
+          1720.0 610.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 455.0
+          3158.3 455.0
+          3193.4 490.1
+          3193.4 539.9
+          3158.3 575.0
+          1755.1 575.0
+          1720.0 539.9
+          1720.0 490.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 335.0
+          3158.3 335.0
+          3193.4 370.1
+          3193.4 419.9
+          3158.3 455.0
+          1755.1 455.0
+          1720.0 419.9
+          1720.0 370.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 215.0
+          3158.3 215.0
+          3193.4 250.1
+          3193.4 299.9
+          3158.3 335.0
+          1755.1 335.0
+          1720.0 299.9
+          1720.0 250.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 95.0
+          3158.3 95.0
+          3193.4 130.1
+          3193.4 179.9
+          3158.3 215.0
+          1755.1 215.0
+          1720.0 179.9
+          1720.0 130.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -25.0
+          3158.3 -25.0
+          3193.4 10.1
+          3193.4 59.9
+          3158.3 95.0
+          1755.1 95.0
+          1720.0 59.9
+          1720.0 10.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -145.0
+          3158.3 -145.0
+          3193.4 -109.9
+          3193.4 -60.1
+          3158.3 -25.0
+          1755.1 -25.0
+          1720.0 -60.1
+          1720.0 -109.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -265.0
+          3158.3 -265.0
+          3193.4 -229.9
+          3193.4 -180.1
+          3158.3 -145.0
+          1755.1 -145.0
+          1720.0 -180.1
+          1720.0 -229.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -385.0
+          3158.3 -385.0
+          3193.4 -349.9
+          3193.4 -300.1
+          3158.3 -265.0
+          1755.1 -265.0
+          1720.0 -300.1
+          1720.0 -349.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -505.0
+          3158.3 -505.0
+          3193.4 -469.9
+          3193.4 -420.1
+          3158.3 -385.0
+          1755.1 -385.0
+          1720.0 -420.1
+          1720.0 -469.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -625.0
+          3158.3 -625.0
+          3193.4 -589.9
+          3193.4 -540.1
+          3158.3 -505.0
+          1755.1 -505.0
+          1720.0 -540.1
+          1720.0 -589.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          3108.4 -695.0
+          3158.3 -695.0
+          3193.4 -659.9
+          3193.4 659.9
+          3158.3 695.0
+          3108.4 695.0
+          3073.3 659.9
+          3073.3 -659.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -3235.0
+          1804.9 -3235.0
+          1840.0 -3199.9
+          1840.0 -1880.1
+          1804.9 -1845.0
+          1755.1 -1845.0
+          1720.0 -1880.1
+          1720.0 -3199.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -3235.0
+          5864.9 -3235.0
+          5900.0 -3199.9
+          5900.0 -3150.1
+          5864.9 -3115.0
+          1755.1 -3115.0
+          1720.0 -3150.1
+          1720.0 -3199.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          5815.1 -3235.0
+          5864.9 -3235.0
+          5900.0 -3199.9
+          5900.0 -1880.1
+          5864.9 -1845.0
+          5815.1 -1845.0
+          5780.0 -1880.1
+          5780.0 -3199.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -1965.0
+          5864.9 -1965.0
+          5900.0 -1929.9
+          5900.0 -1880.1
+          5864.9 -1845.0
+          1755.1 -1845.0
+          1720.0 -1880.1
+          1720.0 -1929.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -2085.0
+          3158.3 -2085.0
+          3193.4 -2049.9
+          3193.4 -2000.1
+          3158.3 -1965.0
+          1755.1 -1965.0
+          1720.0 -2000.1
+          1720.0 -2049.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -2205.0
+          3158.3 -2205.0
+          3193.4 -2169.9
+          3193.4 -2120.1
+          3158.3 -2085.0
+          1755.1 -2085.0
+          1720.0 -2120.1
+          1720.0 -2169.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -2325.0
+          3158.3 -2325.0
+          3193.4 -2289.9
+          3193.4 -2240.1
+          3158.3 -2205.0
+          1755.1 -2205.0
+          1720.0 -2240.1
+          1720.0 -2289.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -2445.0
+          3158.3 -2445.0
+          3193.4 -2409.9
+          3193.4 -2360.1
+          3158.3 -2325.0
+          1755.1 -2325.0
+          1720.0 -2360.1
+          1720.0 -2409.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -2565.0
+          3158.3 -2565.0
+          3193.4 -2529.9
+          3193.4 -2480.1
+          3158.3 -2445.0
+          1755.1 -2445.0
+          1720.0 -2480.1
+          1720.0 -2529.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -2685.0
+          3158.3 -2685.0
+          3193.4 -2649.9
+          3193.4 -2600.1
+          3158.3 -2565.0
+          1755.1 -2565.0
+          1720.0 -2600.1
+          1720.0 -2649.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -2805.0
+          3158.3 -2805.0
+          3193.4 -2769.9
+          3193.4 -2720.1
+          3158.3 -2685.0
+          1755.1 -2685.0
+          1720.0 -2720.1
+          1720.0 -2769.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -2925.0
+          3158.3 -2925.0
+          3193.4 -2889.9
+          3193.4 -2840.1
+          3158.3 -2805.0
+          1755.1 -2805.0
+          1720.0 -2840.1
+          1720.0 -2889.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -3045.0
+          3158.3 -3045.0
+          3193.4 -3009.9
+          3193.4 -2960.1
+          3158.3 -2925.0
+          1755.1 -2925.0
+          1720.0 -2960.1
+          1720.0 -3009.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -3165.0
+          3158.3 -3165.0
+          3193.4 -3129.9
+          3193.4 -3080.1
+          3158.3 -3045.0
+          1755.1 -3045.0
+          1720.0 -3080.1
+          1720.0 -3129.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          3108.4 -3235.0
+          3158.3 -3235.0
+          3193.4 -3199.9
+          3193.4 -1880.1
+          3158.3 -1845.0
+          3108.4 -1845.0
+          3073.3 -1880.1
+          3073.3 -3199.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -5775.0
+          1804.9 -5775.0
+          1840.0 -5739.9
+          1840.0 -4420.1
+          1804.9 -4385.0
+          1755.1 -4385.0
+          1720.0 -4420.1
+          1720.0 -5739.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -5775.0
+          5864.9 -5775.0
+          5900.0 -5739.9
+          5900.0 -5690.1
+          5864.9 -5655.0
+          1755.1 -5655.0
+          1720.0 -5690.1
+          1720.0 -5739.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          5815.1 -5775.0
+          5864.9 -5775.0
+          5900.0 -5739.9
+          5900.0 -4420.1
+          5864.9 -4385.0
+          5815.1 -4385.0
+          5780.0 -4420.1
+          5780.0 -5739.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -4505.0
+          5864.9 -4505.0
+          5900.0 -4469.9
+          5900.0 -4420.1
+          5864.9 -4385.0
+          1755.1 -4385.0
+          1720.0 -4420.1
+          1720.0 -4469.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -4625.0
+          3158.3 -4625.0
+          3193.4 -4589.9
+          3193.4 -4540.1
+          3158.3 -4505.0
+          1755.1 -4505.0
+          1720.0 -4540.1
+          1720.0 -4589.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -4745.0
+          3158.3 -4745.0
+          3193.4 -4709.9
+          3193.4 -4660.1
+          3158.3 -4625.0
+          1755.1 -4625.0
+          1720.0 -4660.1
+          1720.0 -4709.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -4865.0
+          3158.3 -4865.0
+          3193.4 -4829.9
+          3193.4 -4780.1
+          3158.3 -4745.0
+          1755.1 -4745.0
+          1720.0 -4780.1
+          1720.0 -4829.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -4985.0
+          3158.3 -4985.0
+          3193.4 -4949.9
+          3193.4 -4900.1
+          3158.3 -4865.0
+          1755.1 -4865.0
+          1720.0 -4900.1
+          1720.0 -4949.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -5105.0
+          3158.3 -5105.0
+          3193.4 -5069.9
+          3193.4 -5020.1
+          3158.3 -4985.0
+          1755.1 -4985.0
+          1720.0 -5020.1
+          1720.0 -5069.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -5225.0
+          3158.3 -5225.0
+          3193.4 -5189.9
+          3193.4 -5140.1
+          3158.3 -5105.0
+          1755.1 -5105.0
+          1720.0 -5140.1
+          1720.0 -5189.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -5345.0
+          3158.3 -5345.0
+          3193.4 -5309.9
+          3193.4 -5260.1
+          3158.3 -5225.0
+          1755.1 -5225.0
+          1720.0 -5260.1
+          1720.0 -5309.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -5465.0
+          3158.3 -5465.0
+          3193.4 -5429.9
+          3193.4 -5380.1
+          3158.3 -5345.0
+          1755.1 -5345.0
+          1720.0 -5380.1
+          1720.0 -5429.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -5585.0
+          3158.3 -5585.0
+          3193.4 -5549.9
+          3193.4 -5500.1
+          3158.3 -5465.0
+          1755.1 -5465.0
+          1720.0 -5500.1
+          1720.0 -5549.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -5705.0
+          3158.3 -5705.0
+          3193.4 -5669.9
+          3193.4 -5620.1
+          3158.3 -5585.0
+          1755.1 -5585.0
+          1720.0 -5620.1
+          1720.0 -5669.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          3108.4 -5775.0
+          3158.3 -5775.0
+          3193.4 -5739.9
+          3193.4 -4420.1
+          3158.3 -4385.0
+          3108.4 -4385.0
+          3073.3 -4420.1
+          3073.3 -5739.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -8315.0
+          1804.9 -8315.0
+          1840.0 -8279.9
+          1840.0 -6960.1
+          1804.9 -6925.0
+          1755.1 -6925.0
+          1720.0 -6960.1
+          1720.0 -8279.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -8315.0
+          5864.9 -8315.0
+          5900.0 -8279.9
+          5900.0 -8230.1
+          5864.9 -8195.0
+          1755.1 -8195.0
+          1720.0 -8230.1
+          1720.0 -8279.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          5815.1 -8315.0
+          5864.9 -8315.0
+          5900.0 -8279.9
+          5900.0 -6960.1
+          5864.9 -6925.0
+          5815.1 -6925.0
+          5780.0 -6960.1
+          5780.0 -8279.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -7045.0
+          5864.9 -7045.0
+          5900.0 -7009.9
+          5900.0 -6960.1
+          5864.9 -6925.0
+          1755.1 -6925.0
+          1720.0 -6960.1
+          1720.0 -7009.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -7165.0
+          3158.3 -7165.0
+          3193.4 -7129.9
+          3193.4 -7080.1
+          3158.3 -7045.0
+          1755.1 -7045.0
+          1720.0 -7080.1
+          1720.0 -7129.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -7285.0
+          3158.3 -7285.0
+          3193.4 -7249.9
+          3193.4 -7200.1
+          3158.3 -7165.0
+          1755.1 -7165.0
+          1720.0 -7200.1
+          1720.0 -7249.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -7405.0
+          3158.3 -7405.0
+          3193.4 -7369.9
+          3193.4 -7320.1
+          3158.3 -7285.0
+          1755.1 -7285.0
+          1720.0 -7320.1
+          1720.0 -7369.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -7525.0
+          3158.3 -7525.0
+          3193.4 -7489.9
+          3193.4 -7440.1
+          3158.3 -7405.0
+          1755.1 -7405.0
+          1720.0 -7440.1
+          1720.0 -7489.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -7645.0
+          3158.3 -7645.0
+          3193.4 -7609.9
+          3193.4 -7560.1
+          3158.3 -7525.0
+          1755.1 -7525.0
+          1720.0 -7560.1
+          1720.0 -7609.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -7765.0
+          3158.3 -7765.0
+          3193.4 -7729.9
+          3193.4 -7680.1
+          3158.3 -7645.0
+          1755.1 -7645.0
+          1720.0 -7680.1
+          1720.0 -7729.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -7885.0
+          3158.3 -7885.0
+          3193.4 -7849.9
+          3193.4 -7800.1
+          3158.3 -7765.0
+          1755.1 -7765.0
+          1720.0 -7800.1
+          1720.0 -7849.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -8005.0
+          3158.3 -8005.0
+          3193.4 -7969.9
+          3193.4 -7920.1
+          3158.3 -7885.0
+          1755.1 -7885.0
+          1720.0 -7920.1
+          1720.0 -7969.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -8125.0
+          3158.3 -8125.0
+          3193.4 -8089.9
+          3193.4 -8040.1
+          3158.3 -8005.0
+          1755.1 -8005.0
+          1720.0 -8040.1
+          1720.0 -8089.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -8245.0
+          3158.3 -8245.0
+          3193.4 -8209.9
+          3193.4 -8160.1
+          3158.3 -8125.0
+          1755.1 -8125.0
+          1720.0 -8160.1
+          1720.0 -8209.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          3108.4 -8315.0
+          3158.3 -8315.0
+          3193.4 -8279.9
+          3193.4 -6960.1
+          3158.3 -6925.0
+          3108.4 -6925.0
+          3073.3 -6960.1
+          3073.3 -8279.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -10855.0
+          1804.9 -10855.0
+          1840.0 -10819.9
+          1840.0 -9500.1
+          1804.9 -9465.0
+          1755.1 -9465.0
+          1720.0 -9500.1
+          1720.0 -10819.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -10855.0
+          5864.9 -10855.0
+          5900.0 -10819.9
+          5900.0 -10770.1
+          5864.9 -10735.0
+          1755.1 -10735.0
+          1720.0 -10770.1
+          1720.0 -10819.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          5815.1 -10855.0
+          5864.9 -10855.0
+          5900.0 -10819.9
+          5900.0 -9500.1
+          5864.9 -9465.0
+          5815.1 -9465.0
+          5780.0 -9500.1
+          5780.0 -10819.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -9585.0
+          5864.9 -9585.0
+          5900.0 -9549.9
+          5900.0 -9500.1
+          5864.9 -9465.0
+          1755.1 -9465.0
+          1720.0 -9500.1
+          1720.0 -9549.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -9705.0
+          3158.3 -9705.0
+          3193.4 -9669.9
+          3193.4 -9620.1
+          3158.3 -9585.0
+          1755.1 -9585.0
+          1720.0 -9620.1
+          1720.0 -9669.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -9825.0
+          3158.3 -9825.0
+          3193.4 -9789.9
+          3193.4 -9740.1
+          3158.3 -9705.0
+          1755.1 -9705.0
+          1720.0 -9740.1
+          1720.0 -9789.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -9945.0
+          3158.3 -9945.0
+          3193.4 -9909.9
+          3193.4 -9860.1
+          3158.3 -9825.0
+          1755.1 -9825.0
+          1720.0 -9860.1
+          1720.0 -9909.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -10065.0
+          3158.3 -10065.0
+          3193.4 -10029.9
+          3193.4 -9980.1
+          3158.3 -9945.0
+          1755.1 -9945.0
+          1720.0 -9980.1
+          1720.0 -10029.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -10185.0
+          3158.3 -10185.0
+          3193.4 -10149.9
+          3193.4 -10100.1
+          3158.3 -10065.0
+          1755.1 -10065.0
+          1720.0 -10100.1
+          1720.0 -10149.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -10305.0
+          3158.3 -10305.0
+          3193.4 -10269.9
+          3193.4 -10220.1
+          3158.3 -10185.0
+          1755.1 -10185.0
+          1720.0 -10220.1
+          1720.0 -10269.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -10425.0
+          3158.3 -10425.0
+          3193.4 -10389.9
+          3193.4 -10340.1
+          3158.3 -10305.0
+          1755.1 -10305.0
+          1720.0 -10340.1
+          1720.0 -10389.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -10545.0
+          3158.3 -10545.0
+          3193.4 -10509.9
+          3193.4 -10460.1
+          3158.3 -10425.0
+          1755.1 -10425.0
+          1720.0 -10460.1
+          1720.0 -10509.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -10665.0
+          3158.3 -10665.0
+          3193.4 -10629.9
+          3193.4 -10580.1
+          3158.3 -10545.0
+          1755.1 -10545.0
+          1720.0 -10580.1
+          1720.0 -10629.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          1755.1 -10785.0
+          3158.3 -10785.0
+          3193.4 -10749.9
+          3193.4 -10700.1
+          3158.3 -10665.0
+          1755.1 -10665.0
+          1720.0 -10700.1
+          1720.0 -10749.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          3108.4 -10855.0
+          3158.3 -10855.0
+          3193.4 -10819.9
+          3193.4 -9500.1
+          3158.3 -9465.0
+          3108.4 -9465.0
+          3073.3 -9500.1
+          3073.3 -10819.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1360.4 -12875.0
+          -1339.6 -12875.0
+          -1325.0 -12860.4
+          -1325.0 2710.4
+          -1339.6 2725.0
+          -1360.4 2725.0
+          -1375.0 2710.4
+          -1375.0 -12860.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1360.4 -12875.0
+          8960.4 -12875.0
+          8975.0 -12860.4
+          8975.0 -12839.6
+          8960.4 -12825.0
+          -1360.4 -12825.0
+          -1375.0 -12839.6
+          -1375.0 -12860.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          8939.6 -12875.0
+          8960.4 -12875.0
+          8975.0 -12860.4
+          8975.0 2710.4
+          8960.4 2725.0
+          8939.6 2725.0
+          8925.0 2710.4
+          8925.0 -12860.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1360.4 2675.0
+          8960.4 2675.0
+          8975.0 2689.6
+          8975.0 2710.4
+          8960.4 2725.0
+          -1360.4 2725.0
+          -1375.0 2710.4
+          -1375.0 2689.6
+        )
+      )
+    )
+    (image "MountingHole:MountingHole_4.3mm_M4_ISO7380"
+      (side front)
+      (keepout
+        (circle F.Cu 4300.0 0.0 0.0)
+      )
+      (keepout
+        (circle B.Cu 4300.0 0.0 0.0)
+      )
+      (outline
+        (polygon signal 0
+          -1.0155526992287918 -4075.0
+          1.0155526992287918 -4075.0
+          794.9804113893667 -3996.819432975455
+          1559.4158900734521 -3764.9131710161478
+          2264.0843109924836 -3388.2245249864513
+          2881.079473206176 -2881.920526793824
+          2881.9048181818184 -2881.0951818181816
+          3388.3345025608687 -2264.0693781584177
+          3764.911386608609 -1559.421772038087
+          3996.819432975455 -794.9804113893667
+          4075.0 -1.0155526992287918
+          4075.0 1.0155526992287918
+          3996.819432975455 794.9804113893667
+          3764.911386608609 1559.421772038087
+          3388.3345025608687 2264.0693781584177
+          2881.9048181818184 2881.0951818181816
+          2881.0951818181816 2881.9048181818184
+          2264.0693781584177 3388.3345025608687
+          1559.421772038087 3764.911386608609
+          794.9804113893667 3996.819432975455
+          1.0155526992287918 4075.0
+          -1.0155526992287918 4075.0
+          -794.9804113893667 3996.819432975455
+          -1559.421772038087 3764.911386608609
+          -2264.0693781584177 3388.3345025608687
+          -2881.0951818181816 2881.9048181818184
+          -2881.920526793824 2881.079473206176
+          -3388.2245249864513 2264.0843109924836
+          -3764.9131710161478 1559.4158900734521
+          -3996.819432975455 794.9804113893667
+          -4075.0 1.0155526992287918
+          -4075.0 -1.0155526992287918
+          -3996.819432975455 -794.9804113893667
+          -3764.9131710161478 -1559.4158900734521
+          -3388.2245249864513 -2264.0843109924836
+          -2881.920526793824 -2881.079473206176
+          -2881.079473206176 -2881.920526793824
+          -2264.0843109924836 -3388.2245249864513
+          -1559.4158900734521 -3764.9131710161478
+          -794.9804113893667 -3996.819432975455
+        )
+      )
+      (outline
+        (polygon signal 0
+          -198.37628865979383 -3870.1
+          -190.52596401028276 -3870.1
+          586.9269034207417 -3830.716074302557
+          1345.685495846734 -3634.299120030003
+          2049.9790329212606 -3288.733103794827
+          2668.1029112081515 -2810.2970887918486
+          2672.640435835351 -2805.759564164649
+          3180.9255577783138 -2213.63987538365
+          3561.231649424471 -1528.3550042667605
+          3796.0653109131563 -779.9884792098543
+          3875.0 -3.9326478149100255
+          3875.0 3.9326478149100255
+          3796.0650013630466 779.9915225887602
+          3561.2377915923653 1528.439497431284
+          3180.9155501137166 2213.6515336734383
+          2672.640435835351 2805.759564164649
+          2668.13932993445 2810.2606700655497
+          2049.9355448106053 3288.860212265868
+          1345.701683927562 3634.2949294830187
+          586.9269034207417 3830.716074302557
+          -190.52596401028276 3870.1
+          -198.37628865979383 3870.1
+          -971.3799922013923 3751.7083801417866
+          -1706.7047285511187 3479.4036580816246
+          -2372.126599128919 3064.649520512289
+          -2935.9901818181816 2528.6098181818184
+          -2941.038686131387 2523.561313868613
+          -3388.3468852168116 1880.9122391352278
+          -3697.7036892286114 1159.9639617119494
+          -3855.5 392.1850129198966
+          -3855.5 -392.1850129198966
+          -3697.704937513046 -1159.9578880179192
+          -3388.3345547801473 -1880.8357752236996
+          -2941.0562272016678 -2523.5437727983326
+          -2935.799275362319 -2528.800724637681
+          -2372.173524913175 -3064.513195502407
+          -1706.6846248025577 -3479.411102881716
+          -971.3799922013923 -3751.7083801417866
+        )
+      )
+    )
+    (image "MountingHole:MountingHole_4.3mm_M4_ISO7380::1"
+      (side front)
+      (keepout
+        (circle F.Cu 4300.0 0.0 0.0)
+      )
+      (keepout
+        (circle B.Cu 4300.0 0.0 0.0)
+      )
+      (outline
+        (polygon signal 0
+          -198.37628865979383 -3870.1
+          -190.52596401028276 -3870.1
+          586.9269034207417 -3830.716074302557
+          1345.685495846734 -3634.299120030003
+          2049.9790329212606 -3288.733103794827
+          2668.1029112081515 -2810.2970887918486
+          2672.640435835351 -2805.759564164649
+          3180.9255577783138 -2213.63987538365
+          3561.231649424471 -1528.3550042667605
+          3796.0653109131563 -779.9884792098543
+          3875.0 -3.9326478149100255
+          3875.0 3.9326478149100255
+          3796.0650013630466 779.9915225887602
+          3561.2377915923653 1528.439497431284
+          3180.9155501137166 2213.6515336734383
+          2672.640435835351 2805.759564164649
+          2668.13932993445 2810.2606700655497
+          2049.9355448106053 3288.860212265868
+          1345.701683927562 3634.2949294830187
+          586.9269034207417 3830.716074302557
+          -190.52596401028276 3870.1
+          -198.37628865979383 3870.1
+          -971.3799922013923 3751.7083801417866
+          -1706.7047285511187 3479.4036580816246
+          -2372.126599128919 3064.649520512289
+          -2935.9901818181816 2528.6098181818184
+          -2941.038686131387 2523.561313868613
+          -3388.3468852168116 1880.9122391352278
+          -3697.7036892286114 1159.9639617119494
+          -3855.5 392.1850129198966
+          -3855.5 -392.1850129198966
+          -3697.704937513046 -1159.9578880179192
+          -3388.3345547801473 -1880.8357752236996
+          -2941.0562272016678 -2523.5437727983326
+          -2935.799275362319 -2528.800724637681
+          -2372.173524913175 -3064.513195502407
+          -1706.6846248025577 -3479.411102881716
+          -971.3799922013923 -3751.7083801417866
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1.0155526992287918 -4075.0
+          1.0155526992287918 -4075.0
+          794.9804113893667 -3996.819432975455
+          1559.4158900734521 -3764.9131710161478
+          2264.0843109924836 -3388.2245249864513
+          2881.079473206176 -2881.920526793824
+          2881.9048181818184 -2881.0951818181816
+          3388.3345025608687 -2264.0693781584177
+          3764.911386608609 -1559.421772038087
+          3996.819432975455 -794.9804113893667
+          4075.0 -1.0155526992287918
+          4075.0 1.0155526992287918
+          3996.819432975455 794.9804113893667
+          3764.911386608609 1559.421772038087
+          3388.3345025608687 2264.0693781584177
+          2881.9048181818184 2881.0951818181816
+          2881.0951818181816 2881.9048181818184
+          2264.0693781584177 3388.3345025608687
+          1559.421772038087 3764.911386608609
+          794.9804113893667 3996.819432975455
+          1.0155526992287918 4075.0
+          -1.0155526992287918 4075.0
+          -794.9804113893667 3996.819432975455
+          -1559.421772038087 3764.911386608609
+          -2264.0693781584177 3388.3345025608687
+          -2881.0951818181816 2881.9048181818184
+          -2881.920526793824 2881.079473206176
+          -3388.2245249864513 2264.0843109924836
+          -3764.9131710161478 1559.4158900734521
+          -3996.819432975455 794.9804113893667
+          -4075.0 1.0155526992287918
+          -4075.0 -1.0155526992287918
+          -3996.819432975455 -794.9804113893667
+          -3764.9131710161478 -1559.4158900734521
+          -3388.2245249864513 -2264.0843109924836
+          -2881.920526793824 -2881.079473206176
+          -2881.079473206176 -2881.920526793824
+          -2264.0843109924836 -3388.2245249864513
+          -1559.4158900734521 -3764.9131710161478
+          -794.9804113893667 -3996.819432975455
+        )
+      )
+    )
+    (image "Button_Switch_THT:SW_PUSH_6mm_H5mm"
+      (side front)
+      (pin "Round[A]Pad_2000_um" 2 0.0 -4500.0(rotate 90))
+      (pin "Round[A]Pad_2000_um" 1 0.0 0.0(rotate 90))
+      (pin "Round[A]Pad_2000_um" 2@1 6500.0 -4500.0(rotate 90))
+      (pin "Round[A]Pad_2000_um" 1@1 6500.0 0.0(rotate 90))
+      (outline
+        (polygon signal 0
+          3229.3 700.0
+          6270.7 700.0
+          6300.0 729.3
+          6300.0 770.7
+          6270.7 800.0
+          3229.3 800.0
+          3200.0 770.7
+          3200.0 729.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          6229.3 -5300.0
+          6270.7 -5300.0
+          6300.0 -5270.7
+          6300.0 770.7
+          6270.7 800.0
+          6229.3 800.0
+          6200.0 770.7
+          6200.0 -5270.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          229.3 -5300.0
+          6270.7 -5300.0
+          6300.0 -5270.7
+          6300.0 -5229.3
+          6270.7 -5200.0
+          229.3 -5200.0
+          200.0 -5229.3
+          200.0 -5270.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          229.3 -5300.0
+          270.7 -5300.0
+          300.0 -5270.7
+          300.0 770.7
+          270.7 800.0
+          229.3 800.0
+          200.0 770.7
+          200.0 -5270.7
+        )
+      )
+      (outline
+        (polygon signal 0
+          229.3 700.0
+          3270.7 700.0
+          3300.0 729.3
+          3300.0 770.7
+          3270.7 800.0
+          229.3 800.0
+          200.0 770.7
+          200.0 729.3
+        )
+      )
+      (outline
+        (polygon signal 0
+          7739.6 -6025.0
+          8010.4 -6025.0
+          8025.0 -6010.4
+          8025.0 -5989.6
+          8010.4 -5975.0
+          7739.6 -5975.0
+          7725.0 -5989.6
+          7725.0 -6010.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          7989.6 -6025.0
+          8010.4 -6025.0
+          8025.0 -6010.4
+          8025.0 -5739.6
+          8010.4 -5725.0
+          7989.6 -5725.0
+          7975.0 -5739.6
+          7975.0 -6010.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          7739.6 1475.0
+          8010.4 1475.0
+          8025.0 1489.6
+          8025.0 1510.4
+          8010.4 1525.0
+          7739.6 1525.0
+          7725.0 1510.4
+          7725.0 1489.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          7989.6 1225.0
+          8010.4 1225.0
+          8025.0 1239.6
+          8025.0 1510.4
+          8010.4 1525.0
+          7989.6 1525.0
+          7975.0 1510.4
+          7975.0 1239.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1510.4 1225.0
+          -1489.6 1225.0
+          -1475.0 1239.6
+          -1475.0 1510.4
+          -1489.6 1525.0
+          -1510.4 1525.0
+          -1525.0 1510.4
+          -1525.0 1239.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1510.4 1475.0
+          -1239.6 1475.0
+          -1225.0 1489.6
+          -1225.0 1510.4
+          -1239.6 1525.0
+          -1510.4 1525.0
+          -1525.0 1510.4
+          -1525.0 1489.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1510.4 -6025.0
+          -1489.6 -6025.0
+          -1475.0 -6010.4
+          -1475.0 -5739.6
+          -1489.6 -5725.0
+          -1510.4 -5725.0
+          -1525.0 -5739.6
+          -1525.0 -6010.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1510.4 -6025.0
+          -1239.6 -6025.0
+          -1225.0 -6010.4
+          -1225.0 -5989.6
+          -1239.6 -5975.0
+          -1510.4 -5975.0
+          -1525.0 -5989.6
+          -1525.0 -6010.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1260.4 1475.0
+          7760.4 1475.0
+          7775.0 1489.6
+          7775.0 1510.4
+          7760.4 1525.0
+          -1260.4 1525.0
+          -1275.0 1510.4
+          -1275.0 1489.6
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1510.4 -5775.0
+          -1489.6 -5775.0
+          -1475.0 -5760.4
+          -1475.0 1260.4
+          -1489.6 1275.0
+          -1510.4 1275.0
+          -1525.0 1260.4
+          -1525.0 -5760.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          -1260.4 -6025.0
+          7760.4 -6025.0
+          7775.0 -6010.4
+          7775.0 -5989.6
+          7760.4 -5975.0
+          -1260.4 -5975.0
+          -1275.0 -5989.6
+          -1275.0 -6010.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          7989.6 -5775.0
+          8010.4 -5775.0
+          8025.0 -5760.4
+          8025.0 1260.4
+          8010.4 1275.0
+          7989.6 1275.0
+          7975.0 1260.4
+          7975.0 -5760.4
+        )
+      )
+      (outline
+        (polygon signal 0
+          975.1 -5560.0
+          5524.9 -5560.0
+          5560.0 -5524.9
+          5560.0 -5475.1
+          5524.9 -5440.0
+          975.1 -5440.0
+          940.0 -5475.1
+          940.0 -5524.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          -274.9 -3060.0
+          -225.1 -3060.0
+          -190.0 -3024.9
+          -190.0 -1475.1
+          -225.1 -1440.0
+          -274.9 -1440.0
+          -310.0 -1475.1
+          -310.0 -3024.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          975.1 940.0
+          5524.9 940.0
+          5560.0 975.1
+          5560.0 1024.9
+          5524.9 1060.0
+          975.1 1060.0
+          940.0 1024.9
+          940.0 975.1
+        )
+      )
+      (outline
+        (polygon signal 0
+          6725.1 -3060.0
+          6774.9 -3060.0
+          6810.0 -3024.9
+          6810.0 -1475.1
+          6774.9 -1440.0
+          6725.1 -1440.0
+          6690.0 -1475.1
+          6690.0 -3024.9
+        )
+      )
+      (outline
+        (polygon signal 0
+          2956.046225247525 -4295.0
+          3543.953774752475 -4295.0
+          4108.216317495254 -4129.359987452801
+          4601.513797101449 -3812.386202898551
+          4606.900518134715 -3806.999481865285
+          4988.122919646646 -3367.026010224154
+          5232.329408753942 -2832.1902290025923
+          5315.6 -2253.4749082007343
+          5315.6 -2246.5244798041613
+          5232.330520128963 -1667.714961826659
+          4988.117863592072 -1132.9681545209548
+          4606.900518134715 -693.000518134715
+          4601.513797101449 -687.6137971014493
+          4108.216317495254 -370.6400125471989
+          3543.953774752475 -205.0
+          2956.046225247525 -205.0
+          2391.783682504746 -370.6400125471989
+          1898.4862028985506 -687.6137971014493
+          1893.0994818652848 -693.000518134715
+          1511.8821364079272 -1132.9681545209548
+          1267.669479871037 -1667.714961826659
+          1184.4 -2246.5244798041613
+          1184.4 -2253.4749082007343
+          1267.670591246058 -2832.1902290025923
+          1511.8770803533548 -3367.026010224154
+          1893.0994818652848 -3806.999481865285
+          1898.4862028985506 -3812.386202898551
+          2391.783682504746 -4129.359987452801
+        )
+      )
+    )
+    (padstack "Round[A]Pad_1600_um"
+      (shape
+        (circle F.Cu 1600.0 0.0 0.0)
+      )
+      (shape
+        (circle B.Cu 1600.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Round[A]Pad_2000_um"
+      (shape
+        (circle F.Cu 2000.0 0.0 0.0)
+      )
+      (shape
+        (circle B.Cu 2000.0 0.0 0.0)
+      )
+      (attach off)
+    )
+    (padstack "Oval[A]Pad_2000x1440_um"
+      (shape
+        (polygon F.Cu 0
+          -578.2 -720.0
+          578.2 -720.0
+          1000.0 -298.2
+          1000.0 298.2
+          578.2 720.0
+          -578.2 720.0
+          -1000.0 298.2
+          -1000.0 -298.2
+        )
+      )
+      (shape
+        (polygon B.Cu 0
+          -578.2 -720.0
+          578.2 -720.0
+          1000.0 -298.2
+          1000.0 298.2
+          578.2 720.0
+          -578.2 720.0
+          -1000.0 298.2
+          -1000.0 -298.2
+        )
+      )
+      (attach off)
+    )
+    (padstack "Oval[A]Pad_1600x1600_um"
+      (shape
+        (polygon F.Cu 0
+          -331.4 -800.0
+          331.4 -800.0
+          800.0 -331.4
+          800.0 331.4
+          331.4 800.0
+          -331.4 800.0
+          -800.0 331.4
+          -800.0 -331.4
+        )
+      )
+      (shape
+        (polygon B.Cu 0
+          -331.4 -800.0
+          331.4 -800.0
+          800.0 -331.4
+          800.0 331.4
+          331.4 800.0
+          -331.4 800.0
+          -800.0 331.4
+          -800.0 -331.4
+        )
+      )
+      (attach off)
+    )
+    (padstack "Oval[A]Pad_2100x1900_um"
+      (shape
+        (polygon F.Cu 0
+          -493.5 -950.0
+          493.5 -950.0
+          1050.0 -393.5
+          1050.0 393.5
+          493.5 950.0
+          -493.5 950.0
+          -1050.0 393.5
+          -1050.0 -393.5
+        )
+      )
+      (shape
+        (polygon B.Cu 0
+          -493.5 -950.0
+          493.5 -950.0
+          1050.0 -393.5
+          1050.0 393.5
+          493.5 950.0
+          -493.5 950.0
+          -1050.0 393.5
+          -1050.0 -393.5
+        )
+      )
+      (attach off)
+    )
+    (padstack "Rect[B]Pad_1500x8000_um"
+      (shape
+        (rect B.Cu -750.0 -4000.0 750.0 4000.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_2000x1440_um"
+      (shape
+        (rect F.Cu -1000.0 -720.0 1000.0 720.0)
+      )
+      (shape
+        (rect B.Cu -1000.0 -720.0 1000.0 720.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_2100x1900_um"
+      (shape
+        (rect F.Cu -1050.0 -950.0 1050.0 950.0)
+      )
+      (shape
+        (rect B.Cu -1050.0 -950.0 1050.0 950.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[T]Pad_1500x8000_um"
+      (shape
+        (rect F.Cu -750.0 -4000.0 750.0 4000.0)
+      )
+      (attach off)
+    )
+    (padstack "Rect[A]Pad_1600x1600_um"
+      (shape
+        (rect F.Cu -800.0 -800.0 800.0 800.0)
+      )
+      (shape
+        (rect B.Cu -800.0 -800.0 800.0 800.0)
+      )
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape
+        (circle F.Cu 800.0 0.0 0.0)
+      )
+      (shape
+        (circle B.Cu 800.0 0.0 0.0)
+      )
+      (attach off)
+    )
+  )
+  (network
+    (net +5V 1
+      (pins
+        U1-28
+        RN1-1
+        C1-1
+        J1-2
+        J1-3
+      )
+    )
+    (net GND 1
+      (pins
+        SW2-2@1
+        SW2-2
+        SW1-5
+        SW1-4
+        SW1-3
+        SW1-2
+        SW1-1
+        U1-14
+        U1-20
+        C1-2
+        J1-1
+        J1-22
+        J1-A
+        J1-Z
+      )
+    )
+    (net /~ROMH~ 1
+      (pins
+        D1-1
+        J1-B
+        SW3-5
+      )
+    )
+    (net /~ROML~ 1
+      (pins
+        D2-1
+        J1-11
+        SW3-3
+        SW3-4
+      )
+    )
+    (net /A0 1
+      (pins
+        U1-10
+        J1-Y
+      )
+    )
+    (net /A1 1
+      (pins
+        U1-9
+        J1-X
+      )
+    )
+    (net /A2 1
+      (pins
+        U1-8
+        J1-W
+      )
+    )
+    (net /A3 1
+      (pins
+        U1-7
+        J1-V
+      )
+    )
+    (net /A4 1
+      (pins
+        U1-6
+        J1-U
+      )
+    )
+    (net /A5 1
+      (pins
+        U1-5
+        J1-T
+      )
+    )
+    (net /A6 1
+      (pins
+        U1-4
+        J1-S
+      )
+    )
+    (net /A7 1
+      (pins
+        U1-3
+        J1-R
+      )
+    )
+    (net /A8 1
+      (pins
+        U1-25
+        J1-P
+      )
+    )
+    (net /A9 1
+      (pins
+        U1-24
+        J1-N
+      )
+    )
+    (net /A10 1
+      (pins
+        U1-21
+        J1-M
+      )
+    )
+    (net /A11 1
+      (pins
+        U1-23
+        J1-L
+      )
+    )
+    (net /A12 1
+      (pins
+        U1-2
+        J1-K
+      )
+    )
+    (net /A13 1
+      (pins
+        J1-J
+      )
+    )
+    (net /A14 1
+      (pins
+        J1-H
+      )
+    )
+    (net /A15 1
+      (pins
+        J1-F
+      )
+    )
+    (net "Net-(J1-PadE)" 1
+      (pins
+        J1-E
+      )
+    )
+    (net "Net-(J1-PadD)" 1
+      (pins
+        J1-D
+      )
+    )
+    (net "Net-(J1-PadC)" 1
+      (pins
+        SW2-1@1
+        SW2-1
+        J1-C
+      )
+    )
+    (net /D0 1
+      (pins
+        U1-11
+        J1-21
+      )
+    )
+    (net /D1 1
+      (pins
+        U1-12
+        J1-20
+      )
+    )
+    (net /D2 1
+      (pins
+        U1-13
+        J1-19
+      )
+    )
+    (net /D3 1
+      (pins
+        U1-15
+        J1-18
+      )
+    )
+    (net /D4 1
+      (pins
+        U1-16
+        J1-17
+      )
+    )
+    (net /D5 1
+      (pins
+        U1-17
+        J1-16
+      )
+    )
+    (net /D6 1
+      (pins
+        U1-18
+        J1-15
+      )
+    )
+    (net /D7 1
+      (pins
+        U1-19
+        J1-14
+      )
+    )
+    (net "Net-(J1-Pad13)" 1
+      (pins
+        J1-13
+      )
+    )
+    (net "Net-(J1-Pad12)" 1
+      (pins
+        J1-12
+      )
+    )
+    (net "Net-(J1-Pad10)" 1
+      (pins
+        J1-10
+      )
+    )
+    (net /~EXROM~ 1
+      (pins
+        SW1-9
+        J1-9
+      )
+    )
+    (net /~GAME~ 1
+      (pins
+        SW1-10
+        J1-8
+      )
+    )
+    (net "Net-(J1-Pad7)" 1
+      (pins
+        J1-7
+      )
+    )
+    (net "Net-(J1-Pad6)" 1
+      (pins
+        J1-6
+      )
+    )
+    (net "Net-(J1-Pad5)" 1
+      (pins
+        J1-5
+      )
+    )
+    (net "Net-(J1-Pad4)" 1
+      (pins
+        J1-4
+      )
+    )
+    (net "/DIP_A13" 1
+      (pins
+        SW1-6
+        SW3-2
+        SW3-1
+      )
+    )
+    (net "/DIP_A15" 1
+      (pins
+        SW1-8
+        U1-1
+        RN1-3
+      )
+    )
+    (net "/DIP_A14" 1
+      (pins
+        SW1-7
+        U1-27
+        RN1-4
+      )
+    )
+    (net /~OEMIX~ 1
+      (pins
+        RN1-2
+        D2-2
+        D1-2
+        SW3-6
+      )
+    )
+    (net "/ROM_A13" 1
+      (pins
+        U1-26
+        RN1-5
+        SW3-8
+      )
+    )
+    (net "/~ROM_OE~" 1
+      (pins
+        U1-22
+        SW3-7
+      )
+    )
+    (via 
+      "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+    )
+    (via 
+      "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+    )
+    (via_rule
+      default "Via[0-1]_800:400_um"
+    )
+    (via_rule
+      "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+    )
+    (class default
+      (clearance_class default)
+      (via_rule default)
+      (rule
+        (width 250.0)
+      )
+      (circuit 
+        (use_layer F.Cu B.Cu)
+      )
+    )
+    (class "kicad_default"
+      +5V GND /~ROMH~ /~ROML~ /A0 /A1 /A2 /A3
+      /A4 /A5 /A6 /A7 /A8 /A9 /A10 /A11
+      /A12 /A13 /A14 /A15 "Net-(J1-PadE)" "Net-(J1-PadD)" "Net-(J1-PadC)" /D0
+      /D1 /D2 /D3 /D4 /D5 /D6 /D7 "Net-(J1-Pad13)"
+      "Net-(J1-Pad12)" "Net-(J1-Pad10)" /~EXROM~ /~GAME~ "Net-(J1-Pad7)" "Net-(J1-Pad6)" "Net-(J1-Pad5)" "Net-(J1-Pad4)"
+      "/DIP_A13" "/DIP_A15" "/DIP_A14" /~OEMIX~ "/ROM_A13" "/~ROM_OE~"
+      (clearance_class "kicad_default")
+      (via_rule kicad_default)
+      (rule
+        (width 250.0)
+      )
+      (circuit 
+        (use_layer F.Cu B.Cu)
+      )
+    )
+  )
+  (wiring
+    (wire
+      (polyline_path B.Cu 250.0
+        53340.0 -99949.0 53339.9 -99949.0 
+        53340.0 -99949.0 53340.0 -99948.9 
+        0.0 -95623.7 -0.1 -95623.7 
+      )
+      (net /A9 1)
+      (clearance_class "kicad_default")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        55118.0 -46054.0 55118.0 -46054.1 
+        55118.0 -46054.0 55117.9 -46054.0 
+        54072.7 0.0 54072.7 -0.1 
+      )
+      (net /A10 1)
+      (clearance_class "kicad_default")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        52382.5 -94901.1 52382.5 -94901.0 
+        53736.3 -94901.0 53833.2 -94901.0 
+        53833.2 -94455.0 53833.3 -94454.9 
+        53833.2 -94455.0 53833.3 -94455.0 
+      )
+      (net /A10 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        53833.2 -94455.0 53833.3 -94455.0 
+        53833.2 -94901.0 53833.2 -94900.9 
+        54664.1 -77528.3 50421.2 -73285.4 
+        50421.2 -73285.4 50421.3 -73285.3 
+      )
+      (net /A10 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        50800.0 -99949.0 50799.9 -99949.0 
+        50800.0 -99949.0 50800.0 -99948.9 
+        0.0 -95623.7 -0.1 -95623.7 
+      )
+      (net /A10 1)
+      (clearance_class "kicad_default")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        47557.3 -67803.9 47557.4 -67803.9 
+        47557.3 -67803.9 47557.3 -70421.5 
+        47557.3 -70421.5 54664.1 -77528.3 
+        50421.2 -73285.4 50421.3 -73285.3 
+      )
+      (net /A10 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        52382.5 -94901.0 52382.5 -94901.1 
+        52382.5 -94901.0 52382.4 -94901.1 
+        0.0 -95623.7 -0.1 -95623.7 
+        50800.0 -99948.9 50800.0 -99949.0 
+      )
+      (net /A10 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        53340.0 -99949.0 53340.0 -99948.9 
+        53340.0 -95623.7 53339.9 -95623.6 
+        53107.9 -78490.0 53107.9 -78489.9 
+        53340.0 -78490.0 44892.8 -70042.8 
+        44892.8 -70042.8 43731.2 -70042.8 
+        43731.2 -70042.8 38822.8 -65134.4 
+        38822.8 -65134.4 38822.8 -56426.0 
+        38822.8 -56426.0 43688.0 -51560.8 
+        43688.0 -51560.8 43688.0 -45513.5 
+        43688.0 -45513.5 44512.7 -44688.8 
+        44512.7 -44688.8 45381.5 -44688.8 
+        45381.5 -44688.8 46452.7 -45760.0 
+        46452.7 -45760.0 46452.7 -46054.0 
+        46452.7 -46054.0 46452.6 -46054.0 
+      )
+      (net /A9 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        55118.0 -46054.0 55117.9 -46054.0 
+        54072.7 -46766.9 54072.7 -46767.0 
+        55118.0 -46054.0 46452.6 -54719.4 
+        46452.6 -54719.4 46452.6 -66699.2 
+        46452.6 -66699.2 47557.3 -67803.9 
+        47557.3 -67803.9 47557.2 -67804.0 
+      )
+      (net /A10 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        48260.0 -99949.0 48259.9 -99949.0 
+        48260.0 -99949.0 48260.0 -99948.9 
+        0.0 -95623.7 -0.1 -95623.7 
+      )
+      (net /A11 1)
+      (clearance_class "kicad_default")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        50038.0 -46054.0 50038.0 -46054.1 
+        50038.0 -46054.0 50037.9 -46054.0 
+        48992.7 0.0 48992.7 -0.1 
+      )
+      (net /A11 1)
+      (clearance_class "kicad_default")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        50038.0 -46054.0 50037.9 -46054.0 
+        48992.7 -45341.1 48992.7 -45341.0 
+        49286.7 -46054.0 49286.6 -46053.9 
+        48205.8 -44221.8 42438.5 -44221.8 
+        42438.5 -44221.8 41148.0 -45512.3 
+        41148.0 -45512.3 41148.0 -52919.5 
+        41148.0 -52919.5 36274.3 -57793.2 
+        36274.3 -57793.2 36274.3 -63230.6 
+        36274.3 -63230.6 47051.7 -74008.0 
+        47051.7 -74008.0 48221.0 -74008.0 
+        48221.0 -74008.0 48889.7 -74676.7 
+        48889.7 -74676.7 48889.7 -99319.3 
+        48260.0 -95623.7 48259.9 -95623.8 
+        48260.0 -99948.9 48260.0 -99949.0 
+      )
+      (net /A11 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        39878.0 -47379.3 39878.1 -47379.4 
+        39878.0 -47379.3 35824.0 -51433.3 
+        35824.0 -51433.3 35824.0 -65814.2 
+        35824.0 -65814.2 44086.7 -74076.9 
+        44086.7 -74076.9 44086.7 -75184.0 
+        44086.7 -75184.0 44086.6 -75184.0 
+      )
+      (net "/DIP_A14" 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        47498.0 -46054.0 47498.0 -46054.1 
+        47498.0 -46054.0 47497.9 -46054.0 
+        46452.7 0.0 46452.7 -0.1 
+      )
+      (net /A9 1)
+      (clearance_class "kicad_default")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        39878.0 -46054.0 39878.1 -46054.0 
+        39878.0 -46054.0 39878.0 -46054.1 
+        0.0 -47379.3 0.1 -47379.3 
+      )
+      (net "/DIP_A14" 1)
+      (clearance_class "kicad_default")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        45212.0 -75184.0 45212.0 -75184.1 
+        45212.0 -75184.0 45211.9 -75184.0 
+        44086.7 0.0 44086.7 -0.1 
+      )
+      (net "/DIP_A14" 1)
+      (clearance_class "kicad_default")
+      (type shove_fixed)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        59404.1 -46513.9 59404.1 -46513.8 
+        59404.1 -46513.9 59738.1 -46513.9 
+        59738.1 -46513.9 60198.0 -46054.0 
+        60198.0 -46054.0 60198.1 -46054.1 
+      )
+      (net /D7 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        59404.1 -46513.9 59738.1 -46513.9 
+        57208.0 -48710.0 60330.0 -45588.0 
+        60330.0 -45588.0 60330.1 -45588.1 
+      )
+      (net /D7 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        58420.0 -99949.0 58419.9 -99949.0 
+        58420.0 -99949.0 58420.0 -96699.0 
+        58420.0 -96699.0 59944.0 -95175.0 
+        59944.0 -95175.0 59944.0 -87376.0 
+        59944.0 -87376.0 58420.0 -85852.0 
+        58420.0 -85852.0 58420.0 -82332.0 
+        58420.0 -82332.0 46337.0 -70249.0 
+        46337.0 -65195.0 46337.0 -60697.1 
+        46337.0 -60697.1 52578.0 -54456.1 
+        52578.0 -54456.1 52578.0 -50774.0 
+        52578.0 -50774.0 54642.0 -48710.0 
+        54642.0 -48710.0 57208.0 -48710.0 
+        57208.0 -48710.0 60330.0 -45588.0 
+        59404.1 -46513.9 59738.1 -46513.9 
+      )
+      (net /D7 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        39878.0 -66294.0 39878.1 -66294.0 
+        39878.0 -64600.7 39878.0 -61294.0 
+        39878.0 -61294.0 39878.1 -61294.0 
+      )
+      (net /A12 1)
+      (clearance_class "kicad_default")
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        42926.0 -71882.0 42925.9 -71882.1 
+        42926.0 -71882.0 39878.0 -68834.0 
+        39878.0 -68834.0 39878.0 -66294.0 
+        39878.0 -66294.0 39878.1 -66294.0 
+      )
+      (net /A12 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        50800.0 -99949.0 50799.9 -99949.0 
+        50800.0 -99949.0 50800.0 -93726.0 
+        50800.0 -93726.0 55345.6 -93726.0 
+      )
+      (net /~ROML~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        41373.0 -49849.5 41373.1 -49849.5 
+        41373.0 -50041.6 41373.0 -45341.1 
+        41373.0 -45341.1 49555.4 -37158.7 
+        49555.4 -37158.7 49555.4 -37124.0 
+        49555.4 -37124.0 50906.9 -35772.5 
+        53146.1 -35772.5 54190.0 -35772.5 
+        54190.0 -35772.5 56515.0 -33447.5 
+        56515.0 -33447.5 56515.0 -32147.5 
+        56515.1 -32147.5 56515.0 -32147.5 
+      )
+      (net /~ROMH~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        41373.0 -50041.6 41372.9 -50041.6 
+        41373.0 -50041.6 41373.0 -45341.1 
+        41373.0 -49849.5 41373.1 -49849.5 
+      )
+      (net /~ROMH~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        41373.0 -49849.5 41373.1 -49849.5 
+        41373.0 -49849.5 41373.0 -69256.0 
+        41373.0 -50041.6 41372.9 -50041.6 
+      )
+      (net /~ROMH~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        25400.0 -91186.0 25399.9 -91186.0 
+        25400.0 -99949.0 25400.0 -90932.0 
+        25400.0 -90932.0 25400.1 -90932.0 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        25400.0 -99949.0 25399.9 -99949.0 
+        25400.0 -99949.0 25400.0 -90932.0 
+        25400.0 -91186.0 25399.9 -91186.0 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 2000.0
+        31790.0 -75184.0 25400.0 -75184.0 
+        25400.0 -56013.0 25400.0 -51663.6 
+        25400.0 -51663.6 25400.1 -51663.6 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 2000.0
+        25400.0 -90932.0 25399.9 -90932.0 
+        25400.0 -56013.0 25400.0 -51663.6 
+        31790.0 -75184.0 25400.0 -75184.0 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        39243.0 -42900.6 39014.4 -43129.2 
+        28295.6 -43129.2 41757.6 -43129.2 
+        41757.6 -43129.2 41757.6 -43129.3 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        36703.0 -42951.4 36525.2 -43129.2 
+        28295.6 -43129.2 41757.6 -43129.2 
+        39243.0 -42900.6 39014.4 -43129.2 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 500.0
+        44323.0 -41046.4 44322.9 -41046.4 
+        44323.0 -39450.0 44323.0 -42494.2 
+        44323.0 -42494.2 43688.0 -43129.2 
+        43688.0 -43129.2 43687.9 -43129.1 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 500.0
+        44323.0 -39450.0 44323.1 -39450.0 
+        44323.0 -39450.0 44323.0 -42494.2 
+        44323.0 -41046.4 44322.9 -41046.4 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        44323.0 -39450.0 44323.1 -39450.0 
+        44323.0 -41046.4 44323.0 -36830.0 
+        44323.0 -36830.0 44323.1 -36830.0 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        44323.0 -41046.4 44322.9 -41046.4 
+        44323.0 -41046.4 44323.0 -36830.0 
+        44323.0 -39450.0 44323.1 -39450.0 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        34163.0 -43002.2 34036.0 -43129.2 
+        28295.6 -43129.2 41757.6 -43129.2 
+        36703.0 -42951.4 36525.2 -43129.2 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        70535.0 -39622.2 70535.0 -43942.8 
+        69721.4 -43129.2 78740.0 -52147.8 
+        78740.0 -52147.8 78740.0 -66548.0 
+        78740.0 -66548.0 78739.9 -66548.0 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        65151.0 -43129.2 65151.0 -43129.1 
+        65151.0 -43129.2 69721.4 -43129.2 
+        69721.4 -43129.2 78740.0 -52147.8 
+        70535.0 -39622.2 70535.0 -43942.8 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        57658.0 -43865.8 56921.4 -43129.2 
+        43688.0 -43129.2 65151.0 -43129.2 
+        65151.0 -43129.2 65151.0 -43129.3 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        43688.0 -43129.2 43688.0 -43129.1 
+        43688.0 -43129.2 65151.0 -43129.2 
+        57658.0 -43865.8 56921.4 -43129.2 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        52578.0 -46054.0 52577.9 -46054.0 
+        52578.0 -46054.0 52578.0 -45774.0 
+        52578.0 -45774.0 56246.0 -42106.0 
+        56246.0 -42106.0 58619.6 -42106.0 
+        58619.6 -42106.0 60330.0 -40395.6 
+        60330.0 -40395.6 60330.0 -31519.4 
+        60330.0 -31519.4 59583.1 -30772.5 
+        59583.1 -30772.5 55250.0 -30772.5 
+        55250.0 -30772.5 53975.0 -32047.5 
+        53975.0 -32047.5 53975.0 -32147.5 
+        53975.0 -32147.5 53974.9 -32147.5 
+      )
+      (net "/~ROM_OE~" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        42418.0 -46054.0 42417.9 -46054.0 
+        42418.0 -46054.0 42418.0 -45774.0 
+        42418.0 -45774.0 50269.8 -37922.2 
+        50269.8 -37922.2 54769.7 -37922.2 
+        54769.7 -37922.2 56515.0 -39667.5 
+        56515.0 -39667.5 56515.0 -39767.5 
+        56515.0 -39767.5 56514.9 -39767.5 
+      )
+      (net "/ROM_A13" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        47752.0 -75184.0 47751.9 -75184.0 
+        47752.0 -75184.0 47752.0 -74052.6 
+        47752.0 -74052.6 43913.0 -70213.6 
+        43913.0 -70213.6 43913.0 -53799.0 
+        43913.0 -53799.0 42418.0 -52304.0 
+        42418.0 -50774.0 42418.0 -46054.0 
+        42418.0 -46054.0 42418.1 -46054.0 
+      )
+      (net "/ROM_A13" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        52247.8 -34518.6 52247.8 -34518.7 
+        52247.8 -34518.6 49149.0 -34518.6 
+        49149.0 -34518.6 43180.0 -28549.6 
+        43180.0 -28549.6 40157.4 -28549.6 
+        40157.4 -28549.6 38118.0 -30589.0 
+        38118.0 -30589.0 38118.0 -32080.0 
+        38118.0 -32080.0 35578.0 -34620.0 
+        35578.0 -34620.0 35578.0 -41445.4 
+        35578.0 -41445.4 36293.0 -42160.4 
+        36293.0 -42160.4 36293.0 -66102.2 
+        36293.0 -66102.2 35578.0 -66817.2 
+        35578.0 -66817.2 40132.0 -71371.2 
+        40132.0 -71371.2 40132.0 -75184.0 
+        40131.9 -75184.0 40132.0 -75184.0 
+      )
+      (net /~OEMIX~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        54940.2 -36169.6 54940.1 -36169.7 
+        54940.2 -36169.6 54540.2 -35769.6 
+        54540.2 -35769.6 53397.2 -35769.6 
+        53397.2 -35769.6 52247.8 -34620.2 
+        52247.8 -34620.2 52247.8 -34518.6 
+        52247.8 -34518.6 52247.9 -34518.6 
+      )
+      (net /~OEMIX~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        59055.0 -32147.5 59055.1 -32147.5 
+        59055.0 -32147.5 59055.0 -32247.5 
+        59055.0 -32247.5 55132.9 -36169.6 
+        55132.9 -36169.6 54940.2 -36169.6 
+        54940.2 -36169.6 54940.2 -36169.5 
+      )
+      (net /~OEMIX~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        40894.0 -80518.0 40893.9 -80518.0 
+        40894.0 -80518.0 40894.0 -75946.0 
+        40894.0 -75946.0 40132.0 -75184.0 
+        40132.0 -75184.0 40132.1 -75183.9 
+      )
+      (net /~OEMIX~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        36576.0 -80518.0 36576.0 -80517.9 
+        36576.0 -80518.0 40894.0 -80518.0 
+        40894.0 -80518.0 40894.0 -80518.1 
+      )
+      (net /~OEMIX~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        39878.0 -46054.0 39877.9 -46054.0 
+        39878.0 -46054.0 39878.0 -44804.0 
+        39878.0 -44804.0 40658.0 -44024.0 
+        40658.0 -44024.0 40658.0 -37955.0 
+        40658.0 -37955.0 41783.0 -36830.0 
+        41783.0 -36830.0 41783.0 -31830.0 
+        41783.0 -31830.0 41783.1 -31830.0 
+      )
+      (net "/DIP_A14" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        39878.0 -52304.0 39877.9 -52304.0 
+        39878.0 -49804.0 39878.0 -46054.0 
+        39878.0 -46054.0 39878.1 -46054.0 
+      )
+      (net "/DIP_A14" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        45212.0 -75184.0 45211.9 -75184.1 
+        45212.0 -75184.0 44412.0 -74384.0 
+        44412.0 -74384.0 44101.0 -74384.0 
+        44101.0 -74384.0 41947.0 -72230.0 
+        41947.0 -72230.0 41947.0 -71913.4 
+        41947.0 -71913.4 38833.0 -68799.3 
+        38833.0 -68799.3 38833.0 -65435.4 
+        38833.0 -65435.4 38833.1 -65435.4 
+      )
+      (net "/DIP_A14" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        37338.0 -61294.0 37337.9 -61294.0 
+        37338.0 -61294.0 37338.0 -61014.0 
+        37338.0 -61014.0 38658.8 -59693.2 
+        38658.8 -59693.2 38658.8 -41670.8 
+        38658.8 -41670.8 38118.0 -41130.0 
+        38118.0 -41130.0 38118.0 -37955.0 
+        38118.0 -37955.0 39243.0 -36830.0 
+        39243.0 -36830.0 39243.0 -31830.0 
+        39243.0 -31830.0 39243.1 -31830.0 
+      )
+      (net "/DIP_A15" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        37338.0 -61294.0 37338.1 -61294.0 
+        37338.0 -61294.0 37338.0 -62544.0 
+        37338.0 -62544.0 37513.1 -62719.1 
+        37513.1 -62719.1 37513.1 -64868.9 
+        37513.1 -64868.9 37338.0 -65044.0 
+        37338.0 -67544.0 37338.0 -67940.8 
+        37338.0 -67940.8 41497.0 -72099.8 
+        41497.0 -72099.8 41497.0 -74009.0 
+        41497.0 -74009.0 42672.0 -75184.0 
+        42671.9 -75184.1 42672.0 -75184.0 
+      )
+      (net "/DIP_A15" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        53975.0 -39767.5 53975.1 -39767.5 
+        53975.0 -39767.5 53975.0 -41067.5 
+        53975.0 -41067.5 54563.5 -41656.0 
+        54563.5 -41656.0 57266.5 -41656.0 
+        57266.5 -41656.0 59055.0 -39867.5 
+        59055.0 -39867.5 59055.0 -39767.5 
+        59055.0 -39767.5 59055.1 -39767.5 
+      )
+      (net "/DIP_A13" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        53975.0 -39767.5 53975.1 -39767.5 
+        53975.0 -39767.5 53975.0 -39867.5 
+        53975.0 -39867.5 52700.0 -41142.5 
+        52700.0 -41142.5 50906.9 -41142.5 
+        50906.9 -41142.5 44323.0 -34558.6 
+        44323.0 -32961.4 44323.0 -31830.0 
+        44323.0 -31830.0 44323.1 -31830.0 
+      )
+      (net "/DIP_A13" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        34163.0 -31830.0 34163.1 -31830.1 
+        34163.0 -31830.0 31242.0 -34751.0 
+        31242.0 -34751.0 31242.0 -63754.0 
+        31242.0 -63754.0 37491.0 -70003.0 
+        37491.0 -70003.0 37491.0 -72898.0 
+        37491.0 -72898.0 36467.0 -73922.0 
+        36467.0 -73922.0 36467.0 -78325.6 
+        36467.0 -78325.6 35001.0 -79791.6 
+        35001.0 -79791.6 35001.0 -89384.4 
+        35001.0 -89384.4 35728.6 -90112.0 
+        35728.6 -90112.0 36593.0 -90112.0 
+        36593.0 -90112.0 43180.0 -96699.0 
+        43180.0 -96699.0 43180.0 -99949.0 
+        43180.0 -99949.0 43179.9 -99949.0 
+      )
+      (net /~GAME~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        45720.0 -99949.0 45719.9 -99949.0 
+        45720.0 -99949.0 45720.0 -96699.0 
+        45720.0 -96699.0 38284.0 -89263.0 
+        38284.0 -89263.0 35516.0 -89263.0 
+        35516.0 -89263.0 35451.0 -89198.0 
+        35451.0 -89198.0 35451.0 -79978.0 
+        35451.0 -79978.0 38717.0 -76712.0 
+        38717.0 -76712.0 38717.0 -71100.6 
+        38717.0 -71100.6 37941.0 -70324.6 
+        37941.0 -70324.6 37941.0 -69816.6 
+        37941.0 -69816.6 33038.0 -64913.6 
+        33038.0 -64913.6 35288.0 -62663.6 
+        35288.0 -62663.6 35288.0 -44508.2 
+        35288.0 -44508.2 33038.0 -42258.2 
+        33038.0 -42258.2 33038.0 -35495.0 
+        33038.0 -35495.0 36703.0 -31830.0 
+        36703.0 -31830.0 36703.1 -31830.1 
+      )
+      (net /~EXROM~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        60960.0 -99949.0 60959.9 -99949.0 
+        60960.0 -99949.0 60960.0 -81534.0 
+        60960.0 -81534.0 48877.0 -69451.0 
+        48877.0 -65195.0 48877.0 -60195.0 
+        48877.0 -60195.0 62738.0 -46334.0 
+        62738.0 -46334.0 62738.0 -46054.0 
+        62738.0 -46054.0 62738.1 -46054.0 
+      )
+      (net /D6 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        63500.0 -99949.0 63499.9 -99949.0 
+        63500.0 -99949.0 63500.0 -81026.0 
+        63500.0 -81026.0 52549.0 -70075.0 
+        52549.0 -70075.0 51533.0 -70075.0 
+        51533.0 -70075.0 51533.0 -60581.1 
+        51533.0 -60581.1 60780.1 -51334.0 
+        60984.8 -51334.0 61248.0 -51334.0 
+        61248.0 -51334.0 65278.0 -47304.0 
+        65278.0 -47304.0 65278.0 -46054.0 
+        65278.1 -46054.0 65278.0 -46054.0 
+      )
+      (net /D5 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        66040.0 -99949.0 66039.9 -99949.0 
+        66040.0 -99949.0 66040.0 -95699.0 
+        66040.0 -95699.0 66548.0 -95191.0 
+        66548.0 -95191.0 66548.0 -81026.0 
+        66548.0 -81026.0 54073.0 -68551.0 
+        54073.0 -65079.0 54073.0 -60079.0 
+        54073.0 -60079.0 67818.0 -46334.0 
+        67818.0 -46334.0 67818.0 -46054.0 
+        67818.0 -46054.0 67818.1 -46054.0 
+      )
+      (net /D4 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        68580.0 -99949.0 68579.9 -99949.0 
+        68580.0 -99949.0 68580.0 -78973.9 
+        68580.0 -78973.9 56613.0 -67006.9 
+        56613.0 -67006.9 56613.0 -60079.0 
+        56613.0 -60079.0 70358.0 -46334.0 
+        70358.0 -46334.0 70358.0 -46054.0 
+        70358.0 -46054.0 70358.1 -46054.0 
+      )
+      (net /D3 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        71120.0 -99949.0 71119.9 -99949.0 
+        71120.0 -99949.0 71120.0 -78973.9 
+        71120.0 -78973.9 59153.0 -67006.9 
+        59153.0 -67006.9 59153.0 -60581.1 
+        59153.0 -60581.1 61002.1 -58732.0 
+        61002.1 -58732.0 65536.0 -58732.0 
+        65536.0 -58732.0 67818.0 -61014.0 
+        67818.0 -61014.0 67818.0 -61294.0 
+        67818.0 -61294.0 67817.9 -61294.0 
+      )
+      (net /D2 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        65278.0 -61294.0 65277.9 -61294.0 
+        65278.0 -61294.0 65278.0 -61014.0 
+        65278.0 -61014.0 64233.0 -59969.0 
+        64233.0 -59969.0 62305.1 -59969.0 
+        62305.1 -59969.0 61693.0 -60581.1 
+        61693.0 -60581.1 61693.0 -67006.9 
+        61693.0 -67006.9 73660.0 -78973.9 
+        73660.0 -78973.9 73660.0 -99949.0 
+        73660.0 -99949.0 73659.9 -99949.0 
+      )
+      (net /D1 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        76200.0 -99949.0 76199.9 -99949.0 
+        76200.0 -99949.0 76200.0 -79756.0 
+        76200.0 -79756.0 62738.0 -66294.0 
+        62738.0 -66294.0 62738.0 -61294.0 
+        62738.0 -61294.0 62738.1 -61294.0 
+      )
+      (net /D0 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        27787.6 -89281.0 27787.7 -89280.9 
+        27787.6 -89281.0 28187.6 -89681.0 
+        28187.6 -89681.0 31756.4 -89681.0 
+        31756.4 -89681.0 35153.6 -86283.8 
+        35153.6 -86283.8 36906.8 -86283.8 
+        36906.8 -86283.8 38608.0 -87985.0 
+        38608.0 -87985.0 38608.0 -88571.0 
+        38608.0 -88571.0 30480.0 -96699.0 
+        30480.0 -96699.0 30480.0 -99949.0 
+        30480.0 -99949.0 30479.9 -99949.0 
+      )
+      (net "Net-(J1-PadC)" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        27254.2 -41630.6 27254.3 -41630.5 
+        27254.2 -41630.6 27787.6 -42164.0 
+        27787.6 -42164.0 27787.6 -89281.0 
+        27787.6 -89281.0 27787.5 -89281.0 
+      )
+      (net "Net-(J1-PadC)" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        64389.0 -33354.0 64388.9 -33354.1 
+        64389.0 -33354.0 63389.0 -32354.0 
+        63389.0 -32354.0 63389.0 -31613.6 
+        63389.0 -31613.6 62480.4 -30705.0 
+        62480.4 -30705.0 33623.0 -30705.0 
+        33623.0 -30705.0 30124.4 -34203.6 
+        30124.4 -34203.6 30124.4 -38760.4 
+        30124.4 -38760.4 27254.2 -41630.6 
+        27254.2 -41630.6 27254.1 -41630.5 
+      )
+      (net "Net-(J1-PadC)" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        70889.0 -33354.0 70889.0 -33354.1 
+        70889.0 -33354.0 64389.0 -33354.0 
+        64389.0 -33354.0 64389.0 -33353.9 
+      )
+      (net "Net-(J1-PadC)" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        45720.0 -99949.0 45719.9 -99949.0 
+        45720.0 -99949.0 45720.0 -79756.0 
+        45720.0 -79756.0 46627.0 -78849.0 
+        46627.0 -78849.0 46627.0 -74644.0 
+        46627.0 -74644.0 43865.0 -71882.0 
+        43865.0 -71882.0 42926.0 -71882.0 
+        42926.0 -71882.0 42926.0 -71881.9 
+      )
+      (net /A12 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        55880.0 -99949.0 55879.9 -99949.0 
+        55880.0 -99949.0 55880.0 -77592.8 
+        55880.0 -77592.8 50815.3 -72528.0 
+        50815.3 -72528.0 48161.3 -72528.0 
+        48161.3 -72528.0 44895.3 -69262.0 
+        44895.3 -69262.0 43628.1 -69262.0 
+        43628.1 -69262.0 41373.0 -67006.9 
+        41373.0 -67006.9 41373.0 -54919.0 
+        41373.0 -54919.0 44958.0 -51334.0 
+        44958.0 -51054.0 44958.0 -46054.0 
+        44958.0 -46054.0 44958.1 -46054.0 
+      )
+      (net /A8 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        42418.0 -61294.0 42418.1 -61294.0 
+        42418.0 -61294.0 42418.0 -66574.0 
+        42418.0 -66574.0 43388.0 -67544.0 
+        43388.0 -67544.0 43813.7 -67544.0 
+        43813.7 -67544.0 48347.7 -72078.0 
+        48347.7 -72078.0 51001.7 -72078.0 
+        51001.7 -72078.0 58420.0 -79496.4 
+        58420.0 -79496.4 58420.0 -99949.0 
+        58420.0 -99949.0 58419.9 -99949.0 
+      )
+      (net /A7 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        44958.0 -61294.0 44958.1 -61294.0 
+        44958.0 -61294.0 44958.0 -66574.0 
+        44958.0 -66574.0 49562.0 -71178.0 
+        49562.0 -71178.0 51874.0 -71178.0 
+        51874.0 -71178.0 59944.0 -79248.0 
+        59944.0 -79248.0 59944.0 -95683.0 
+        59944.0 -95683.0 60960.0 -96699.0 
+        60960.0 -96699.0 60960.0 -99949.0 
+        60960.0 -99949.0 60959.9 -99949.0 
+      )
+      (net /A6 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        63499.9 -99949.0 63500.0 -99949.0 
+        63500.0 -99949.0 63500.0 -80772.0 
+        63500.0 -80772.0 52832.0 -70104.0 
+        52832.0 -70104.0 51028.0 -70104.0 
+        51028.0 -70104.0 47498.0 -66574.0 
+        47498.0 -66294.0 47498.0 -61294.0 
+        47498.0 -61294.0 47498.1 -61294.0 
+      )
+      (net /A5 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        66039.9 -99949.0 66040.0 -99949.0 
+        66040.0 -99949.0 66040.0 -81026.0 
+        66040.0 -81026.0 54356.0 -69342.0 
+        54356.0 -69342.0 52806.0 -69342.0 
+        52806.0 -69342.0 50038.0 -66574.0 
+        50038.0 -66294.0 50038.0 -61294.0 
+        50038.0 -61294.0 50038.1 -61294.0 
+      )
+      (net /A4 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        68580.0 -99949.0 68579.9 -99949.0 
+        68580.0 -99949.0 68580.0 -82290.4 
+        68580.0 -82290.4 53833.6 -67544.0 
+        53833.6 -67544.0 53548.0 -67544.0 
+        53548.0 -67544.0 52578.0 -66574.0 
+        52578.0 -66294.0 52578.0 -61294.0 
+        52578.0 -61294.0 52578.1 -61294.0 
+      )
+      (net /A3 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        71120.0 -99949.0 71119.9 -99949.0 
+        71120.0 -99949.0 71120.0 -95699.0 
+        71120.0 -95699.0 70866.0 -95445.0 
+        70866.0 -95445.0 70866.0 -82042.0 
+        70866.0 -82042.0 56368.0 -67544.0 
+        56368.0 -67544.0 56088.0 -67544.0 
+        56088.0 -67544.0 55118.0 -66574.0 
+        55118.0 -66294.0 55118.0 -61294.0 
+        55118.0 -61294.0 55118.1 -61294.0 
+      )
+      (net /A2 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        73659.9 -99949.0 73660.0 -99949.0 
+        73660.0 -99949.0 73660.0 -82296.0 
+        73660.0 -82296.0 58908.0 -67544.0 
+        58908.0 -67544.0 58628.0 -67544.0 
+        58628.0 -67544.0 57658.0 -66574.0 
+        57658.0 -66294.0 57658.0 -61294.0 
+        57658.0 -61294.0 57658.1 -61294.0 
+      )
+      (net /A1 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        76200.0 -99949.0 76199.9 -99949.0 
+        76200.0 -99949.0 76200.0 -82576.0 
+        76200.0 -82576.0 60198.0 -66574.0 
+        60198.0 -66294.0 60198.0 -61294.0 
+        60198.0 -61294.0 60198.1 -61294.0 
+      )
+      (net /A0 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        51435.0 -39767.5 51435.1 -39767.5 
+        51435.0 -52324.0 51435.0 -52374.8 
+        51434.9 -52374.8 51435.0 -52374.8 
+      )
+      (net /~ROML~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        45364.4 -58445.4 45364.3 -58445.3 
+        45364.4 -58445.4 51435.0 -52374.8 
+        51435.0 -52374.8 51435.1 -52374.9 
+      )
+      (net /~ROML~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        51435.0 -52374.8 51435.1 -52374.9 
+        51435.0 -52374.8 45364.4 -58445.4 
+        45364.4 -58445.4 45364.3 -58445.3 
+      )
+      (net /~ROML~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        51435.0 -32147.5 51435.1 -32147.5 
+        51435.0 -32147.5 51435.0 -39767.5 
+        51435.0 -39767.5 51434.9 -39767.5 
+      )
+      (net /~ROML~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        59218.9 -89852.6 59219.0 -89852.6 
+        59219.0 -89852.6 59219.0 -79658.9 
+        59219.0 -79658.9 51188.1 -71628.0 
+        51188.1 -71628.0 48534.1 -71628.0 
+        48534.1 -71628.0 43913.0 -67006.9 
+        43913.0 -64545.0 43913.0 -59896.8 
+        43913.0 -59896.8 45364.4 -58445.4 
+        45364.4 -58445.4 45364.5 -58445.5 
+      )
+      (net /~ROML~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        50800.0 -93726.0 50800.0 -93725.9 
+        50800.0 -93726.0 55345.6 -93726.0 
+        55345.6 -93726.0 59219.0 -89852.6 
+        59219.0 -89852.6 59219.1 -89852.7 
+      )
+      (net /~ROML~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        50800.0 -99949.0 50800.0 -93726.0 
+        50800.0 -93726.0 45212.0 -88138.0 
+        45212.0 -88138.0 40894.0 -88138.0 
+        40894.0 -88138.0 40894.0 -88137.9 
+      )
+      (net /~ROML~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        41373.0 -49849.5 41373.0 -49849.4 
+        41373.0 -49849.5 41412.7 -49849.5 
+        41412.7 -49849.5 41412.7 -49849.6 
+      )
+      (net /~ROMH~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 250.0
+        41373.0 -50041.6 41372.9 -50041.6 
+        41373.0 -49849.5 41373.0 -69256.0 
+        41373.0 -69256.0 46337.0 -74220.0 
+        46337.0 -74220.0 46337.0 -77327.0 
+        46337.0 -77327.0 36576.0 -87088.0 
+        36576.0 -87088.0 36576.0 -88138.0 
+        36576.0 -88138.0 36575.9 -88138.0 
+      )
+      (net /~ROMH~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        27940.0 -99949.0 27939.9 -99949.0 
+        27940.0 -99949.0 27940.0 -96699.0 
+        27940.0 -96699.0 36501.0 -88138.0 
+        36501.0 -88138.0 36576.0 -88138.0 
+        36576.0 -88138.0 36576.0 -88138.1 
+      )
+      (net /~ROMH~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 500.0
+        57658.0 -46054.0 57657.9 -46054.0 
+        57658.0 -46054.0 57658.0 -43865.8 
+        57658.0 -43865.8 56921.4 -43129.2 
+        56921.4 -43129.2 56921.5 -43129.1 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 500.0
+        70358.0 -61294.0 70358.1 -61294.0 
+        70358.0 -61294.0 70358.0 -66294.0 
+        70358.0 -66294.0 70357.9 -66294.0 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 500.0
+        70889.0 -37854.0 70889.1 -37854.0 
+        70889.0 -37854.0 70889.0 -39268.2 
+        70889.0 -39268.2 70535.0 -39622.2 
+        70535.0 -39622.2 70535.0 -43942.8 
+        70535.0 -43942.8 70534.9 -43942.8 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 500.0
+        64389.0 -37854.0 64389.1 -37854.0 
+        64389.0 -37854.0 64389.0 -42367.2 
+        64389.0 -42367.2 65151.0 -43129.2 
+        65151.0 -43129.2 65150.9 -43129.3 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 500.0
+        34163.0 -39450.0 34163.1 -39450.0 
+        34163.0 -39450.0 34163.0 -43002.2 
+        34163.0 -43002.2 34036.0 -43129.2 
+        34036.0 -43129.2 34035.9 -43129.1 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 500.0
+        36703.0 -39450.0 36703.1 -39450.0 
+        36703.0 -39450.0 36703.0 -42951.4 
+        36703.0 -42951.4 36525.2 -43129.2 
+        36525.2 -43129.2 36525.1 -43129.1 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        41757.6 -43129.2 41757.6 -43129.1 
+        41757.6 -43129.2 43688.0 -43129.2 
+        43688.0 -43129.2 43688.0 -43129.3 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 500.0
+        41783.0 -39450.0 41783.1 -39450.0 
+        41783.0 -39450.0 41783.0 -43002.2 
+        41783.0 -43002.2 41757.6 -43027.6 
+        41757.6 -43027.6 41757.6 -43129.2 
+        41757.6 -43129.2 41757.5 -43129.2 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 500.0
+        39243.0 -39450.0 39243.1 -39450.0 
+        39243.0 -39450.0 39243.0 -42900.6 
+        39243.0 -42900.6 39014.4 -43129.2 
+        39014.4 -43129.2 39014.3 -43129.1 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        25400.0 -51663.6 25399.9 -51663.6 
+        25400.0 -51663.6 25400.0 -46024.8 
+        25400.0 -46024.8 28295.6 -43129.2 
+        28295.6 -43129.2 41757.6 -43129.2 
+        34163.0 -43002.2 34036.0 -43129.2 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        70358.0 -66294.0 70358.0 -66293.9 
+        70358.0 -66294.0 78486.0 -66294.0 
+        78486.0 -66294.0 78740.0 -66548.0 
+        78740.0 -66548.0 78739.9 -66548.1 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 2000.0
+        78740.0 -90170.0 78739.9 -90170.0 
+        78740.0 -90170.0 78740.0 -66548.0 
+        78740.0 -66548.0 78740.1 -66548.0 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 1000.0
+        78740.0 -99949.0 78739.9 -99949.0 
+        78740.0 -99949.0 78740.0 -90170.0 
+        78740.0 -90170.0 78740.1 -90170.0 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        78740.0 -99949.0 78739.9 -99949.0 
+        78740.0 -99949.0 78740.0 -90170.0 
+        78740.0 -90170.0 78740.1 -90170.0 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 1000.0
+        25400.0 -99949.0 25399.9 -99949.0 
+        25400.0 -99949.0 25400.0 -91186.0 
+        25400.0 -91186.0 25400.1 -91186.0 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        31790.0 -75184.0 31790.0 -75184.1 
+        31790.0 -75184.0 25400.0 -75184.0 
+        25400.0 -75184.0 25400.0 -75183.9 
+      )
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 1000.0
+        37338.0 -46054.0 37338.1 -46054.0 
+        37338.0 -46054.0 37338.0 -48054.0 
+        37338.0 -48054.0 34290.0 -51102.0 
+        34290.0 -51102.0 34290.0 -54102.0 
+        34290.0 -54102.0 34289.9 -54102.0 
+      )
+      (net +5V 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 250.0
+        37592.0 -75184.0 37592.0 -75184.1 
+        36542.0 -75184.0 34290.0 -75184.0 
+        34290.0 -75184.0 34290.0 -75183.9 
+      )
+      (net +5V 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path B.Cu 2000.0
+        34290.0 -75184.0 34289.9 -75184.0 
+        34290.0 -75184.0 34290.0 -54102.0 
+        34290.0 -54102.0 34290.1 -54102.0 
+      )
+      (net +5V 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 2000.0
+        34290.0 -75184.0 34290.1 -75184.0 
+        34290.0 -75184.0 34290.0 -77724.0 
+        34290.0 -77724.0 30075.5 -81938.5 
+        30075.5 -81938.5 30075.5 -92813.5 
+        30075.5 -92813.5 30075.4 -92813.5 
+      )
+      (net +5V 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 2000.0
+        29210.0 -93679.0 29209.9 -93678.9 
+        29210.0 -93679.0 30075.5 -92813.5 
+        30075.5 -92813.5 30075.6 -92813.6 
+      )
+      (net +5V 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 1000.0
+        30480.0 -99949.0 30479.9 -99949.0 
+        30480.0 -99949.0 30480.0 -93218.0 
+        30480.0 -93218.0 30075.5 -92813.5 
+        30075.5 -92813.5 30075.6 -92813.4 
+      )
+      (net +5V 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 1000.0
+        27940.0 -99949.0 27939.9 -99949.0 
+        27940.0 -99949.0 27940.0 -94949.0 
+        27940.0 -94949.0 29210.0 -93679.0 
+        29210.0 -93679.0 29210.1 -93679.1 
+      )
+      (net +5V 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (wire
+      (polyline_path F.Cu 1000.0
+        30480.0 -99949.0 30480.0 -99949.1 
+        30480.0 -99949.0 27940.0 -99949.0 
+        27940.0 -99949.0 27940.0 -99948.9 
+      )
+      (net +5V 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (via "Via[0-1]_800:400_um" 52382.5 -94901.0
+      (net /A10 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_800:400_um" 53833.2 -94455.0
+      (net /A10 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_800:400_um" 50421.2 -73285.4
+      (net /A10 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_800:400_um" 47557.3 -67803.9
+      (net /A10 1)
+      (clearance_class "kicad_default")
+    )
+    (via "Via[0-1]_800:400_um" 52247.8 -34518.6
+      (net /~OEMIX~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (via "Via[0-1]_800:400_um" 54940.2 -36169.6
+      (net /~OEMIX~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (via "Via[0-1]_800:400_um" 27787.6 -89281.0
+      (net "Net-(J1-PadC)" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (via "Via[0-1]_800:400_um" 27254.2 -41630.6
+      (net "Net-(J1-PadC)" 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (via "Via[0-1]_800:400_um" 42926.0 -71882.0
+      (net /A12 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (via "Via[0-1]_800:400_um" 45364.4 -58445.4
+      (net /~ROML~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (via "Via[0-1]_800:400_um" 59219.0 -89852.6
+      (net /~ROML~ 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (via "Via[0-1]_800:400_um" 25400.0 -91186.0
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+    (via "Via[0-1]_800:400_um" 78740.0 -90170.0
+      (net GND 1)
+      (clearance_class "kicad_default")
+      (type protect)
+    )
+  )
+)
