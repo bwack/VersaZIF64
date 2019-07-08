@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "VersaZIF64"
-Date "2019-06-28"
-Rev "1.1"
+Date "2019-07-08"
+Rev "1.2"
 Comp "BWACK"
 Comment1 "Based on the Versa64cart"
 Comment2 ""
